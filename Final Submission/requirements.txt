@@ -1,0 +1,28 @@
+# Core notebook/data stack
+numpy>=1.26
+pandas>=2.0
+matplotlib>=3.8
+scikit-learn>=1.4
+scipy>=1.11
+Pillow>=10.0
+
+# LLM clients and structured outputs
+openai>=1.0
+instructor>=1.0
+pydantic>=2.0
+tenacity>=8.0
+python-dotenv>=1.0
+
+# Notebook execution/inspection
+jupyter>=1.0
+ipykernel>=6.0
+
+# Optional tracing / observability used by some baseline notebooks
+arize-phoenix>=7.0
+openinference-instrumentation-openai>=0.1
+opentelemetry-api>=1.20
+opentelemetry-sdk>=1.20
+opentelemetry-exporter-otlp>=1.20
+
+# Optional dashboard app
+streamlit>=1.30
