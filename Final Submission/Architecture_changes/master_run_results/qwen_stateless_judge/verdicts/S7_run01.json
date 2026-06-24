@@ -1,0 +1,6 @@
+{
+  "verdict": "FAIL",
+  "score": 0.2,
+  "reasoning": "The chart fundamentally fails to answer the specific business question asked. The question asks for the 'Umsatz' (Revenue) in the years 2021-2024, implying an annual aggregation or a comparison of yearly totals ('Wieviel Umsatz...'). Instead, the provided chart displays monthly revenue broken down by year using a stacked bar chart with months on the x-axis. This makes it impossible to directly read the total annual revenue without performing manual calculations across all bars for each year. Furthermore, the annotations contain factual errors regarding the data points they reference (e.g., claiming June 2023 is -42% vs 2022 when the annotation targets January 2023's value but places it at July's position, and incorrect percentage comparisons). A line chart showing annual totals or a simple column chart with years on the X-axis would be the correct visualization.",
+  "suggested_improvement": "Change the chart type to a Column Chart where the X-axis represents the Years (2021, 2022, 2023, 2024) and the Y-axis represents the sum of Revenue ([Umsatz SD/CO]) for that year. Remove the complex monthly stacking and erroneous annotations."
+}

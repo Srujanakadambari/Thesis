@@ -1,0 +1,6 @@
+{
+  "verdict": "FAIL",
+  "score": 0.3,
+  "reasoning": "The chart fails to answer the business question for two critical reasons:\n1. **Unit Mislabeling**: The Y-axis labels claim 'T€' (Trillion Euros), while the data values are in single Euros (e.g., ~242k). This is a catastrophic error that misrepresents the scale by a factor of 1 trillion.\n2. **Wrong Aggregation Level**: The question asks for revenue *in the years* 2021-2024 ('Wieviel Umsatz... in den Jahren'). A standard interpretation requires annual totals. The provided chart shows monthly breakdowns overlaid on top of each other. While it contains the raw data needed to calculate the yearly sums, it does not visualize the yearly performance directly. Furthermore, plotting four overlapping lines with such disparate scales (2021 is very low compared to 2022) makes it difficult to read specific values without tooltips, and it doesn't provide the 'total earnings' per year as requested.",
+  "suggested_improvement": "Change the chart type to a bar chart where the X-axis represents the Years (2021, 2022, 2023, 2024) and the Y-axis represents the Sum of Revenue for that year. Correct the Y-axis unit label to '€' or 'k€'. Optionally, add a secondary view or table showing the monthly breakdown if detailed analysis is required, but the primary visualization must show the annual totals."
+}

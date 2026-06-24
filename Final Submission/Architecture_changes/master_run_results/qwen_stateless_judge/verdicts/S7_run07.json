@@ -1,0 +1,6 @@
+{
+  "verdict": "FAIL",
+  "score": 0.1,
+  "reasoning": "The chart configuration is fundamentally flawed for answering the business question. The question asks for the revenue per year (2021-2024), implying an aggregation of monthly data into annual totals. However, the provided `data` array contains raw monthly records without any aggregation logic. When plotted as a bar chart with 'Year' on the x-axis and individual months as bars, this results in overlapping bars for each month within the same year (e.g., 12 bars all at x=2021). This makes it impossible to read the total annual revenue visually; instead, only the highest single-month value might be visible, or the bars would clutter each other completely. Furthermore, the annotations reference specific high values but are attached to generic point targets that do not clearly map to the aggregated yearly totals required by the question. A correct visualization would aggregate the sum of `[Umsatz SD/CO]` for each year before plotting.",
+  "suggested_improvement": "Aggregate the source data by summing `[Umsatz SD/CO]` grouped by `Kalender[Jahr]` before creating the chart. Then, plot these four summed values as distinct bars for years 2021, 2022, 2023, and 2024."
+}

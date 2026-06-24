@@ -1,0 +1,241 @@
+{
+  "titlename": "Monthly Sales Data from 2021 to 2024",
+  "charttype": "line",
+  "xlabel": "Month",
+  "ylabel": "Sales (SD/CO)",
+  "y_ticks": [
+    0,
+    50000,
+    100000,
+    150000,
+    200000,
+    250000
+  ],
+  "x_ticks": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12
+  ],
+  "x_tick_label": [
+    "Jan",
+    "Feb",
+    "Mar",
+    "Apr",
+    "May",
+    "Jun",
+    "Jul",
+    "Aug",
+    "Sep",
+    "Oct",
+    "Nov",
+    "Dec"
+  ],
+  "y_tick_label": [
+    "0",
+    "50k",
+    "100k",
+    "150k",
+    "200k",
+    "250k"
+  ],
+  "x_lim": [
+    0,
+    12
+  ],
+  "y_lim": [
+    0,
+    250000
+  ],
+  "annotations": [
+    {
+      "text": "Peak sales in June 2022 (242067)",
+      "target_type": "point",
+      "data_id": 30.0,
+      "data_value": 242067.0,
+      "x_value": null,
+      "y_value": null,
+      "x_range": null,
+      "y_range": null,
+      "style": null
+    },
+    {
+      "text": "Unexpected drop in December 2023 (308)",
+      "target_type": "point",
+      "data_id": 56.0,
+      "data_value": 308.0,
+      "x_value": null,
+      "y_value": null,
+      "x_range": null,
+      "y_range": null,
+      "style": null
+    },
+    {
+      "text": "No sales in September 2024 (0)",
+      "target_type": "point",
+      "data_id": 72.0,
+      "data_value": 0.0,
+      "x_value": null,
+      "y_value": null,
+      "x_range": null,
+      "y_range": null,
+      "style": null
+    },
+    {
+      "text": "Highest sales in November 2021 (43171)",
+      "target_type": "point",
+      "data_id": 10.0,
+      "data_value": 43171.0,
+      "x_value": null,
+      "y_value": null,
+      "x_range": null,
+      "y_range": null,
+      "style": null
+    },
+    {
+      "text": "Lowest sales in May 2021 (4014)",
+      "target_type": "point",
+      "data_id": 8.0,
+      "data_value": 4014.0,
+      "x_value": null,
+      "y_value": null,
+      "x_range": null,
+      "y_range": null,
+      "style": null
+    }
+  ],
+  "data": [
+    {
+      "x_data": [
+        1.0,
+        2.0,
+        3.0,
+        4.0,
+        5.0,
+        6.0,
+        7.0,
+        8.0,
+        9.0,
+        10.0,
+        11.0,
+        12.0
+      ],
+      "y_data": [
+        12308.1,
+        11619.17,
+        6366.93,
+        30264.05,
+        4013.68,
+        12705.9,
+        4399.77,
+        9660.99,
+        31067.25,
+        43170.69,
+        8191.73,
+        31104.06
+      ],
+      "label": "2021"
+    },
+    {
+      "x_data": [
+        1.0,
+        2.0,
+        3.0,
+        4.0,
+        5.0,
+        6.0,
+        7.0,
+        8.0,
+        9.0,
+        10.0,
+        11.0,
+        12.0
+      ],
+      "y_data": [
+        9099.13,
+        7901.51,
+        43886.0,
+        8222.0,
+        79558.31,
+        242067.31,
+        49897.36,
+        114949.62,
+        126704.83,
+        191821.13,
+        142962.81,
+        107768.1
+      ],
+      "label": "2022"
+    },
+    {
+      "x_data": [
+        1.0,
+        2.0,
+        3.0,
+        4.0,
+        5.0,
+        6.0,
+        7.0,
+        8.0,
+        9.0,
+        10.0,
+        11.0,
+        12.0
+      ],
+      "y_data": [
+        39018.99,
+        11985.62,
+        22982.51,
+        136944.76,
+        59338.62,
+        93584.47,
+        56252.4,
+        94834.47,
+        55172.35,
+        4556.49,
+        81661.45,
+        308.0
+      ],
+      "label": "2023"
+    },
+    {
+      "x_data": [
+        1.0,
+        2.0,
+        3.0,
+        4.0,
+        5.0,
+        6.0,
+        7.0,
+        8.0,
+        9.0,
+        10.0,
+        11.0,
+        12.0
+      ],
+      "y_data": [
+        17836.38,
+        24220.52,
+        5705.99,
+        4960.46,
+        59299.74,
+        22302.27,
+        2534.01,
+        94434.55,
+        0.0,
+        2171.52,
+        89776.96,
+        1682.98
+      ],
+      "label": "2024"
+    }
+  ]
+}

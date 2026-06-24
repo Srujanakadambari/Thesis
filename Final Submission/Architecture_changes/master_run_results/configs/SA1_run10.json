@@ -1,0 +1,96 @@
+{
+  "titlename": "Jahresumsatz im Segment JVA (2021\u20132024)",
+  "charttype": "line",
+  "xlabel": "Kalenderjahr",
+  "ylabel": "Umsatz (\u20ac)",
+  "y_ticks": [
+    0,
+    200000,
+    400000,
+    600000,
+    800000,
+    1000000,
+    1200000
+  ],
+  "x_ticks": [
+    0,
+    1,
+    2,
+    3
+  ],
+  "x_tick_label": [
+    "2021",
+    "2022",
+    "2023",
+    "2024"
+  ],
+  "y_tick_label": [
+    "0",
+    "200 Tsd.",
+    "400 Tsd.",
+    "600 Tsd.",
+    "800 Tsd.",
+    "1,0 Mio.",
+    "1,2 Mio."
+  ],
+  "x_lim": [
+    -0.5,
+    3.5
+  ],
+  "y_lim": [
+    0,
+    1200000
+  ],
+  "annotations": [
+    {
+      "text": "Peak 2022: 1,124 838 \u20ac",
+      "target_type": "point",
+      "data_id": 1.0,
+      "data_value": 1124838.11,
+      "x_value": 1.0,
+      "y_value": 1124838.11,
+      "x_range": null,
+      "y_range": null,
+      "style": null
+    },
+    {
+      "text": "2023: \u221241 % gg\u00fc. 2022",
+      "target_type": "point",
+      "data_id": 2.0,
+      "data_value": 656640.59,
+      "x_value": 2.0,
+      "y_value": 656640.59,
+      "x_range": null,
+      "y_range": null,
+      "style": null
+    },
+    {
+      "text": "2024: \u221250 % gg\u00fc. 2023",
+      "target_type": "point",
+      "data_id": 3.0,
+      "data_value": 324925.38,
+      "x_value": 3.0,
+      "y_value": 324925.38,
+      "x_range": null,
+      "y_range": null,
+      "style": null
+    }
+  ],
+  "data": [
+    {
+      "x_data": [
+        2021.0,
+        2022.0,
+        2023.0,
+        2024.0
+      ],
+      "y_data": [
+        204872.32,
+        1124838.11,
+        656640.59,
+        324925.38
+      ],
+      "label": "Jahresumsatz"
+    }
+  ]
+}

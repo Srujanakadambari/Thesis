@@ -1,0 +1,2 @@
+scenario,run,config_file,timestamp,judge_model,judge_latency_s,verdict,score,reasoning_steps,thinking_trace_chars,evaluation_statement,main_strengths,main_weaknesses,evidence,suggested_improvement,error
+S0,1,/Users/srujanakadambari/Desktop/ffresh thesis/data-to-visual/data-to-visual-nicos-branch/FINAL FOLDER/master_run_results/configs/S0_run01.json,2026-05-17T10:06:15,Qwen3.6-27B,,ERROR,,,0,,,,,,ValueError: Qwen returned message.content=None

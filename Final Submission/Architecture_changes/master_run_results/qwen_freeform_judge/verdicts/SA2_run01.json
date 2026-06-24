@@ -1,0 +1,6 @@
+{
+  "verdict": "FAIL",
+  "score": 0.4,
+  "reasoning": "The visualization fails on two critical levels: data accuracy and relevance to the question. First, there are significant data errors in the `y_data` array compared to the source table. For example, November 2023 is listed as 81861.45 in the chart config but is 81661.45 in the source; October 2024 is missing (value 2171.52) while subsequent months show zeros or incorrect values. Second, the business question asks for revenue *in the years* 2021-2024, which implies an annual aggregation or a clear year-over-year comparison. A monthly line chart showing every single month makes it difficult to quickly grasp the total yearly performance requested ('Wieviel Umsatz...'). While it shows trends, it does not directly answer 'how much' per year clearly without mental summation.",
+  "suggested_improvement": "Change the chart type to a bar chart displaying aggregated annual totals for 2021, 2022, 2023, and 2024 to directly answer the question about yearly revenue. Ensure all monthly data points used for any granular view match the source exactly."
+}

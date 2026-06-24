@@ -1,0 +1,6 @@
+{
+  "verdict": "FAIL",
+  "score": 0.1,
+  "reasoning": "The chart completely fails to answer the business question. The question asks for total revenue per year (2021-2024), but the visualization plots every single monthly data point as individual bars on top of each other or side-by-side without aggregation. This results in a chaotic 'spaghetti' plot where it is impossible to discern the annual totals. Furthermore, the annotations claim specific YoY growth percentages and highlight 'Top Months', but these are not linked visually to the correct years in a way that helps interpret the aggregate yearly performance. A bar chart with 48 overlapping/adjacent bars is useless for comparing annual sums.",
+  "suggested_improvement": "Aggregate the data by summing the '[Umsatz SD/CO]' column for each 'Kalender[Jahr]'. Create a simple bar chart with exactly four bars (one for each year: 2021, 2022, 2023, 2024) showing the total calculated revenue for that year."
+}

@@ -1,0 +1,225 @@
+{
+  "titlename": "Monthly Revenue Performance",
+  "charttype": "line",
+  "xlabel": "Months",
+  "ylabel": "Revenue (SD/CO)",
+  "y_ticks": [
+    0,
+    50000,
+    100000,
+    150000,
+    200000,
+    250000
+  ],
+  "x_ticks": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11
+  ],
+  "x_tick_label": [
+    "Jan",
+    "Feb",
+    "Mar",
+    "Apr",
+    "May",
+    "Jun",
+    "Jul",
+    "Aug",
+    "Sep",
+    "Oct",
+    "Nov",
+    "Dec"
+  ],
+  "y_tick_label": [
+    "0",
+    "50000",
+    "100000",
+    "150000",
+    "200000",
+    "250000"
+  ],
+  "x_lim": [
+    0,
+    11
+  ],
+  "y_lim": [
+    0,
+    250000
+  ],
+  "annotations": [
+    {
+      "text": "Inconsistent revenue pattern",
+      "target_type": "point",
+      "data_id": 0.0,
+      "data_value": 12308.1,
+      "x_value": 0.0,
+      "y_value": 12308.1,
+      "x_range": null,
+      "y_range": null,
+      "style": null
+    },
+    {
+      "text": "Fluctuating revenue in a range",
+      "target_type": "point",
+      "data_id": 1.0,
+      "data_value": 11985.62,
+      "x_value": 1.0,
+      "y_value": 11985.62,
+      "x_range": null,
+      "y_range": null,
+      "style": null
+    },
+    {
+      "text": "Significant increase from 2021 to 2022",
+      "target_type": "point",
+      "data_id": 2.0,
+      "data_value": 6366.93,
+      "x_value": 2.0,
+      "y_value": 6366.93,
+      "x_range": null,
+      "y_range": null,
+      "style": null
+    },
+    {
+      "text": "Notable decline in 2022",
+      "target_type": "point",
+      "data_id": 3.0,
+      "data_value": 30264.05,
+      "x_value": 3.0,
+      "y_value": 30264.05,
+      "x_range": null,
+      "y_range": null,
+      "style": null
+    },
+    {
+      "text": "Hike in 2022",
+      "target_type": "point",
+      "data_id": 4.0,
+      "data_value": 4013.68,
+      "x_value": 4.0,
+      "y_value": 4013.68,
+      "x_range": null,
+      "y_range": null,
+      "style": null
+    },
+    {
+      "text": "Trend rises in June, July 2022",
+      "target_type": "point",
+      "data_id": 5.0,
+      "data_value": 242067.31,
+      "x_value": 5.0,
+      "y_value": 242067.31,
+      "x_range": null,
+      "y_range": null,
+      "style": null
+    },
+    {
+      "text": "Sharp change in August 2022",
+      "target_type": "point",
+      "data_id": 6.0,
+      "data_value": 114949.62,
+      "x_value": 6.0,
+      "y_value": 114949.62,
+      "x_range": null,
+      "y_range": null,
+      "style": null
+    },
+    {
+      "text": "Growth trend until 2023 then drop",
+      "target_type": "point",
+      "data_id": 7.0,
+      "data_value": 0.0,
+      "x_value": 7.0,
+      "y_value": 0.0,
+      "x_range": null,
+      "y_range": null,
+      "style": null
+    },
+    {
+      "text": "Strength gains in Nov & Dec",
+      "target_type": "point",
+      "data_id": 8.0,
+      "data_value": 43170.69,
+      "x_value": 8.0,
+      "y_value": 43170.69,
+      "x_range": null,
+      "y_range": null,
+      "style": null
+    },
+    {
+      "text": "Highest revenue in 2022",
+      "target_type": "point",
+      "data_id": 9.0,
+      "data_value": 31104.06,
+      "x_value": 9.0,
+      "y_value": 31104.06,
+      "x_range": null,
+      "y_range": null,
+      "style": null
+    },
+    {
+      "text": "Drop in 2024 (Sep)",
+      "target_type": "point",
+      "data_id": 10.0,
+      "data_value": 0.0,
+      "x_value": 10.0,
+      "y_value": 0.0,
+      "x_range": null,
+      "y_range": null,
+      "style": null
+    },
+    {
+      "text": "Volatile peaks in 2022",
+      "target_type": "point",
+      "data_id": 11.0,
+      "data_value": 136944.76,
+      "x_value": 11.0,
+      "y_value": 136944.76,
+      "x_range": null,
+      "y_range": null,
+      "style": null
+    }
+  ],
+  "data": [
+    {
+      "x_data": [
+        0.0,
+        1.0,
+        2.0,
+        3.0,
+        4.0,
+        5.0,
+        6.0,
+        7.0,
+        8.0,
+        9.0,
+        10.0,
+        11.0
+      ],
+      "y_data": [
+        12308.1,
+        11985.62,
+        6366.93,
+        30264.05,
+        4013.68,
+        242067.31,
+        114949.62,
+        0.0,
+        43170.69,
+        31104.06,
+        136944.76,
+        0.0
+      ],
+      "label": "Monthly Revenue"
+    }
+  ]
+}

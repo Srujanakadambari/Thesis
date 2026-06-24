@@ -1,0 +1,94 @@
+{
+  "titlename": "Annual Revenues 2021-2024",
+  "charttype": "bar",
+  "xlabel": "Year",
+  "ylabel": "Revenue (\u20ac)",
+  "y_ticks": [
+    0,
+    500000,
+    1000000,
+    1500000,
+    2000000,
+    2500000
+  ],
+  "x_ticks": [
+    0,
+    1,
+    2,
+    3
+  ],
+  "x_tick_label": [
+    "2021",
+    "2022",
+    "2023",
+    "2024"
+  ],
+  "y_tick_label": [
+    "0\u20ac",
+    "500k\u20ac",
+    "1M\u20ac",
+    "1.5M\u20ac",
+    "2M\u20ac",
+    "2.5M\u20ac"
+  ],
+  "x_lim": [
+    -0.5,
+    3.5
+  ],
+  "y_lim": [
+    0,
+    2500000
+  ],
+  "annotations": [
+    {
+      "text": "Highest: Juni 2022 (242067,31\u20ac)",
+      "target_type": "point",
+      "data_id": 11.0,
+      "data_value": 242067.31,
+      "x_value": 1.0,
+      "y_value": 242067.31,
+      "x_range": null,
+      "y_range": null,
+      "style": null
+    },
+    {
+      "text": "Lowest: Dez 2023 (308,46\u20ac)",
+      "target_type": "point",
+      "data_id": 45.0,
+      "data_value": 308.46,
+      "x_value": 2.0,
+      "y_value": 308.46,
+      "x_range": null,
+      "y_range": null,
+      "style": null
+    },
+    {
+      "text": "Zero: Sep 2024 (0\u20ac)",
+      "target_type": "point",
+      "data_id": 47.0,
+      "data_value": 0.0,
+      "x_value": 3.0,
+      "y_value": 0.0,
+      "x_range": null,
+      "y_range": null,
+      "style": null
+    }
+  ],
+  "data": [
+    {
+      "x_data": [
+        0.0,
+        1.0,
+        2.0,
+        3.0
+      ],
+      "y_data": [
+        204872.32,
+        1124838.11,
+        656640.59,
+        324925.38
+      ],
+      "label": "Revenues"
+    }
+  ]
+}

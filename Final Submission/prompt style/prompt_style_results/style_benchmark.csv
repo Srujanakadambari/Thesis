@@ -1,0 +1,16 @@
+style_id,style_name,approx_tokens,run,latency_s,quality_score,passed,schema_complete,valid_charttype,has_data,renderable,has_annotations,data_consistency,n_data_groups,n_annotations,charttype,title_text,error
+S1_trigger_words,Trigger words only,10,1,19.601,8,True,True,True,True,True,True,True,4,4,line,Teckentrup JVA 2021-2024 Umsatz monatlich,
+S1_trigger_words,Trigger words only,10,2,14.475,6,True,True,True,True,False,False,True,4,0,line,Teckentrup JVA 2021-2024 Umsatz monatlich,render: 'NoneType' object is not iterable
+S1_trigger_words,Trigger words only,10,3,14.641,8,True,True,True,True,True,True,True,4,1,line,Teckentrup JVA: Umsatz 2021-2024 monatlich,
+S2_short_imperative,Short imperative,15,1,17.82,8,True,True,True,True,True,True,True,4,2,line,Monthly Teckentrup JVA Revenue (2021-2024),
+S2_short_imperative,Short imperative,15,2,24.91,8,True,True,True,True,True,True,True,4,2,line,Monthly Teckentrup JVA Revenue 2021-2024,
+S2_short_imperative,Short imperative,15,3,22.989,8,True,True,True,True,True,True,True,4,2,line,Monatlicher Teckentrup JVA Umsatz 2021-2024,
+S3_standard_german,Standard (current baseline),34,1,22.202,8,True,True,True,True,True,True,True,1,4,column,Jahresumsatz Teckentrup im Segment JVA (2021-2024),
+S3_standard_german,Standard (current baseline),34,2,626.743,8,True,True,True,True,True,True,True,1,4,column,Jahresumsatz Teckentrup Segment JVA (2021-2024),
+S3_standard_german,Standard (current baseline),34,3,28.952,8,True,True,True,True,True,True,True,1,4,column,Jahresumsatz Teckentrup Segment JVA (2021–2024),
+S4_detailed,Detailed structured,70,1,37.682,8,True,True,True,True,True,True,True,4,4,line,Monatlicher Umsatz Teckentrup JVA (2021-2024),
+S4_detailed,Detailed structured,70,2,21.77,8,True,True,True,True,True,True,True,4,3,line,Monatlicher Umsatz im Segment JVA (2021–2024),
+S4_detailed,Detailed structured,70,3,41.013,8,True,True,True,True,True,True,True,4,4,line,Monatlicher Umsatz im Segment JVA (2021-2024),
+S5_verbose,Verbose with examples,152,1,39.348,8,True,True,True,True,True,True,True,4,3,line,Monatliche Umsatztrends JVA Segment (2021–2024),
+S5_verbose,Verbose with examples,152,2,34.112,8,True,True,True,True,True,True,True,4,3,line,Monatliche Umsatztrends Teckentrup JVA Segment (2021-2024),
+S5_verbose,Verbose with examples,152,3,45.82,8,True,True,True,True,True,True,True,4,3,line,Teckentrup JVA Umsatz 2021-2024,

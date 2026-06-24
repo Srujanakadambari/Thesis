@@ -1,0 +1,6 @@
+{
+  "verdict": "FAIL",
+  "score": 0.4,
+  "reasoning": "The chart configuration fails to answer the business question for two main reasons. First, the question asks 'Wieviel Umsatz...' (How much revenue...), which implies a request for total annual figures or a summary of performance over the years. The provided chart displays monthly granularity without aggregating the data into yearly totals, making it difficult to quickly assess the total revenue per year as requested. Second, and more critically, there is significant data integrity issues in the `y_data` arrays. For example, in the 2021 dataset, December (`Dez`) has a value of ~31k in the source table but is listed as `0.0` at index 11 (the 12th position) in the JSON config. Similarly, 2022's December (~107k) is missing (listed as 0.0), and 2023's December (~308) is also 0.0. These zero values are incorrect based on the source data, rendering the visualization factually wrong.",
+  "suggested_improvement": "Aggregate the monthly revenue data by year to show total annual revenue (e.g., using a bar chart with Years on X-axis and Total Revenue on Y-axis). Alternatively, if keeping monthly detail, ensure all monthly values from the source table are correctly mapped to their respective months in the JSON `y_data` arrays, fixing the missing/zeroed-out entries for December."
+}

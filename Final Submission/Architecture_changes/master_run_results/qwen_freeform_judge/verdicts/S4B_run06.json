@@ -1,0 +1,6 @@
+{
+  "verdict": "FAIL",
+  "score": 0.2,
+  "reasoning": "The chart fails on multiple levels. First, it does not answer the specific question about total revenue per year; instead, it plots monthly data points sequentially without distinguishing between years. Second, the x-axis labels are static ('Jan' to 'Dec'), causing all four years of data to overlap into a single confusing line where months from different years are plotted at the same position (e.g., Jan 2021 and Jan 2022 both appear at index 0). Third, there is a significant data error: December 2023 has a value of 308.46 in the source data, but the chart's y_data array lists 0.0 at that position (index 29), misrepresenting the actual figure. Finally, plotting raw monthly values over 48 months without grouping by year makes it impossible to compare annual totals or trends effectively.",
+  "suggested_improvement": "Aggregate the data by Year to show total annual revenue using a bar chart, which directly answers the question. If a trend view is desired, use a line chart with distinct lines for each year or a continuous date axis on the x-axis."
+}

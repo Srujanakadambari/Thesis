@@ -1,0 +1,6 @@
+{
+  "verdict": "FAIL",
+  "score": 0.2,
+  "reasoning": "The chart fails to answer the business question for two critical reasons. First, it does not aggregate the data by year as requested ('Wieviel Umsatz... in den Jahren'). Instead, it plots every single month individually on a confusing x-axis that mixes years and months without clear separation (e.g., all Januaries are at index 0), making it impossible to read annual totals or trends clearly. Second, there is a significant data error: the value for August 2024 is listed as 94534.55 in the chart's y_data, whereas the source table explicitly states 94434.55. Additionally, the line chart connects points across different years arbitrarily due to the flawed axis mapping, creating misleading visual connections.",
+  "suggested_improvement": "Aggregate the monthly sales data into yearly sums for 2021, 2022, 2023, and 2024. Use a bar chart with 'Year' on the X-axis and 'Total Revenue' on the Y-axis to directly show the revenue per year."
+}

@@ -1,0 +1,2 @@
+scenario,calls,n,mean_lat_s,pass_pct,render_pct,mean_q_score,mean_n_groups,mean_n_annots,strict_pass_pct,lenient_pass_pct,cfg_mean_score
+SA6,2-call,10,21.4,100.0,80.0,7.6,3.4,5.2,0.0,0.0,0.759

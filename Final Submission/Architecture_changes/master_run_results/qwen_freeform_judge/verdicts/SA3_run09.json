@@ -1,0 +1,6 @@
+{
+  "verdict": "FAIL",
+  "score": 0.1,
+  "reasoning": "The visualization fails completely on two major fronts: data completeness and relevance to the question. First, the chart only displays data for the year 2021 (12 months), ignoring the years 2022, 2023, and 2024 which are explicitly requested in the business question. Second, the chart shows monthly revenue trends rather than the total annual earnings required by the prompt ('Wieviel Umsatz...'). While annotations attempt to list totals for all years, they are attached to specific points in the 2021 series without context or visual representation of those other years, making it misleading and unhelpful for a comparative analysis.",
+  "suggested_improvement": "Create a bar chart with four bars representing the total aggregated revenue for each year (2021, 2022, 2023, 2024) to directly answer the question about yearly turnover."
+}

@@ -1,0 +1,6 @@
+{
+  "verdict": "FAIL",
+  "score": 0.4,
+  "reasoning": "The chart displays monthly revenue data rather than answering the core question which asks for the total revenue ('Wieviel Umsatz') per year (2021-2024). While the underlying data is correct and covers the specified period, a line chart showing monthly fluctuations makes it difficult to immediately see the annual totals required by the prompt. A business user would have to manually sum the values or estimate visually, whereas a bar chart with aggregated yearly sums would directly answer 'How much was the revenue'. Additionally, the annotations highlight specific months but do not provide the aggregate annual figures requested.",
+  "suggested_improvement": "Aggregate the monthly sales data into annual totals for each year (2021, 2022, 2023, 2024) and display them using a column or bar chart labeled with the calculated total revenue for each year."
+}

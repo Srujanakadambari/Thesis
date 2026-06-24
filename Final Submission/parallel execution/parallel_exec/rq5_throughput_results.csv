@@ -1,0 +1,5 @@
+Concurrency,Serial wall time (s),Parallel wall time (s),Serial RPS,Parallel RPS,Throughput gain
+1,33.93,41.06,0.029,0.024,-17.4%
+2,50.21,58.46,0.04,0.034,-14.1%
+4,71.44,51.49,0.056,0.078,38.8%
+8,58.84,52.81,0.136,0.151,11.4%

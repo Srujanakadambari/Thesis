@@ -1,0 +1,6 @@
+{
+  "verdict": "FAIL",
+  "score": 0.4,
+  "reasoning": "The chart displays the correct underlying data points for monthly revenue per year. However, it fails to answer the specific business question, which asks for the *total* turnover ('Wieviel Umsatz...') for the years 2021-2024. A line chart showing monthly fluctuations makes it difficult for a user to quickly grasp or compare the annual totals without performing mental arithmetic or external calculation. Furthermore, plotting four separate lines on one axis creates visual clutter (overplotting), making it hard to distinguish trends between years, especially given the massive scale difference between 2021/2024 and 2022/2023. It provides detail but lacks the summary insight required.",
+  "suggested_improvement": "Replace the multi-line monthly chart with a bar chart comparing the aggregated total annual revenue for each year (2021, 2022, 2023, 2024) directly answering the 'how much' question. Optionally, keep the monthly breakdown as a secondary view or tooltip."
+}

@@ -1,0 +1,6 @@
+{
+  "verdict": "FAIL",
+  "score": 0.3,
+  "reasoning": "The chart fails to answer the business question for two critical reasons. First, the question explicitly asks for 'Umsatz ... im Segment JVA' (Revenue in segment JVA), but the provided source data table contains no column or filter indicating a specific segment (JVA). The chart simply plots all available revenue data without verifying if it belongs to the requested segment, leading to potentially incorrect conclusions about the specific segment's performance. Second, and more visibly, the chart displays monthly revenue figures ('Monat'), whereas the question asks for the revenue 'in den Jahren' (in the years) 2021-2024. A user looking at this chart sees four overlapping lines of monthly volatility rather than the annual totals required by the prompt. To be useful, the visualization should aggregate the data by year.",
+  "suggested_improvement": "Filter the data to include only records belonging to the 'JVA' segment (if such data exists in the full dataset) and then aggregate the '[Umsatz SD/CO]' values by 'Kalender[Jahr]' to show total annual revenue per year instead of individual monthly points."
+}

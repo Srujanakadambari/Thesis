@@ -1,0 +1,6 @@
+{
+  "verdict": "FAIL",
+  "score": 0.4,
+  "reasoning": "The chart fails to accurately represent the data and misleads the viewer regarding trends. Specifically, for the year 2022, the data source shows revenue for all 12 months (e.g., Dec 2022 is 107,768.10), but the visualization maps December 2022 to a value of 0.0. Similarly, for 2024, September is 0.0 in the source, which is correct, but December 2024 has revenue (1,682.98) while the chart plots it as 0.0. This suggests a mapping error where the last month's data point is being dropped or zeroed out incorrectly. Furthermore, plotting monthly raw values on a single line per year makes it difficult to compare total annual performance directly without mental aggregation, though this is a secondary issue compared to the data integrity errors.",
+  "suggested_improvement": "Correct the data mapping so that all 12 months for each year are plotted with their actual values from the source table. Ensure that December 2022 reflects ~107k and December 2024 reflects ~1.6k, rather than 0."
+}

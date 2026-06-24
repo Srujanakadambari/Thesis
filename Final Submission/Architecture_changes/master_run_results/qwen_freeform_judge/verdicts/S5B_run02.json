@@ -1,0 +1,6 @@
+{
+  "verdict": "FAIL",
+  "score": 0.4,
+  "reasoning": "The visualization fails on two critical levels. First, it contains significant data errors: the value for December 2021 is missing (replaced by 0), and December 2022 is also incorrectly set to 0 instead of ~107k. Second, and more importantly, the chart does not answer the specific business question 'How much revenue...'. The question asks for a total/summary per year ('Wieviel Umsatz'), but the chart displays monthly fluctuations. A line chart comparing monthly trends across four years makes it extremely difficult for a user to quickly grasp the *total* annual performance without doing mental math or external calculation. It shows seasonality, not the requested yearly totals.",
+  "suggested_improvement": "Replace the multi-line monthly chart with a bar chart showing the aggregated Total Revenue per Year (2021-2024) to directly answer the question about yearly earnings."
+}

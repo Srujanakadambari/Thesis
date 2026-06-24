@@ -1,0 +1,6 @@
+{
+  "verdict": "FAIL",
+  "score": 0.4,
+  "reasoning": "The chart fails to answer the core part of the business question ('Wieviel Umsatz...' / 'How much revenue...') which implies a request for annual totals or a clear comparison of yearly performance. Instead, it displays monthly data points without aggregation. While the title mentions years 2021-2024, the x-axis only shows months (Jan-Dec), making it impossible to distinguish which month belongs to which year visually without relying on color coding that isn't explicitly defined in the config structure provided (though implied by separate data arrays). More critically, the annotations are factually incorrect based on the source data: it claims the lowest revenue was in April 2024 (4960.46), but December 2023 had significantly lower revenue (308.46) and September 2024 had zero revenue (0.00). It also misses the highest value, which is June 2022 (242,067.31), not August 2022 as annotated. A bar chart showing aggregated annual sums would be far more appropriate.",
+  "suggested_improvement": "Aggregate the data by Year instead of Month to show total annual revenue for 2021-2024, and correct the annotations to reflect the actual maximum and minimum values found in the dataset."
+}

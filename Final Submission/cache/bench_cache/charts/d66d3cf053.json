@@ -1,0 +1,119 @@
+{
+  "titlename": "2023 Revenue by Month (Umsatz SD/CO)",
+  "charttype": "column",
+  "xlabel": "Month",
+  "ylabel": "Revenue (EUR)",
+  "y_ticks": [
+    0,
+    50000,
+    100000,
+    150000
+  ],
+  "x_ticks": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11
+  ],
+  "x_tick_label": [
+    "Jan",
+    "Feb",
+    "Mar",
+    "Apr",
+    "May",
+    "Jun",
+    "Jul",
+    "Aug",
+    "Sep",
+    "Oct",
+    "Nov",
+    "Dec"
+  ],
+  "y_tick_label": [
+    "0",
+    "50k",
+    "100k",
+    "150k"
+  ],
+  "x_lim": [
+    -0.5,
+    11.5
+  ],
+  "y_lim": [
+    0,
+    150000
+  ],
+  "annotations": [
+    {
+      "text": "Peak: April (136,944.76)",
+      "target_type": "point",
+      "data_id": null,
+      "data_value": null,
+      "x_value": 3.0,
+      "y_value": 136944.76,
+      "x_range": null,
+      "y_range": null,
+      "style": {
+        "color": "green",
+        "arrow": true,
+        "font_size": 12
+      }
+    },
+    {
+      "text": "Lowest: December (308.46)",
+      "target_type": "point",
+      "data_id": null,
+      "data_value": null,
+      "x_value": 11.0,
+      "y_value": 308.46,
+      "x_range": null,
+      "y_range": null,
+      "style": {
+        "color": "red",
+        "arrow": true,
+        "font_size": 12
+      }
+    }
+  ],
+  "data": [
+    {
+      "x_data": [
+        0.0,
+        1.0,
+        2.0,
+        3.0,
+        4.0,
+        5.0,
+        6.0,
+        7.0,
+        8.0,
+        9.0,
+        10.0,
+        11.0
+      ],
+      "y_data": [
+        39018.99,
+        11985.62,
+        22982.51,
+        136944.76,
+        59338.62,
+        93584.47,
+        56252.4,
+        94834.47,
+        55172.35,
+        4556.49,
+        81661.45,
+        308.46
+      ],
+      "label": "Umsatz SD/CO"
+    }
+  ]
+}

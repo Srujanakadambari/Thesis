@@ -1,0 +1,3 @@
+comparison,serial_mean_latency_s,parallel_mean_latency_s,absolute_reduction_s,relative_reduction_pct
+Without router,63.19,35.83,27.36,43.3
+With router,139.19,43.89,95.3,68.47

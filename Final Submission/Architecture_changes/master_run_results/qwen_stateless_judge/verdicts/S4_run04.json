@@ -1,0 +1,6 @@
+{
+  "verdict": "FAIL",
+  "score": 0.4,
+  "reasoning": "The business question explicitly asks for the revenue in the years 2021 to 2024 ('Wieviel Umsatz...'). This implies a request for annual totals or at least a comparison of yearly performance. The provided chart configuration displays monthly revenue data instead of aggregated yearly sums. While it shows the underlying data points, it does not directly answer 'how much' revenue was generated in each year as a single figure, which is the standard interpretation of such a question. A bar chart showing total revenue per year would be the correct visualization. Additionally, the title 'Monthly Revenue by Year' confirms that the aggregation level is incorrect for the specific question asked.",
+  "suggested_improvement": "Aggregate the monthly revenue data by year (summing all months for each year) and display the result using a bar chart with Years on the X-axis and Total Revenue on the Y-axis."
+}

@@ -1,0 +1,9 @@
+Query,Note,Expected,Actual,Correct,Similarity_to_seed,Latency_s,Source,Rendered,PCA_PC1,PCA_PC2
+Q1_seed,Seed query — populates cache,MISS,MISS,True,1.0,52.522,LLM,True,-0.05214432240575061,0.0016933128762190537
+Q2_similar_de,"Same intent, different German wording",HIT,HIT,True,0.911,2.001,cache,True,0.06395753804707273,0.0071411693184762004
+Q3_similar_en,"Same intent, English",HIT,HIT,True,0.8388,1.006,cache,True,-0.35960888882884223,0.11264090365224445
+Q4_similar_short,"Short paraphrase, German",HIT,HIT,True,0.8264,0.272,cache,True,0.355061953387929,0.05977313349864873
+Q5_similar_verbose,"Verbose paraphrase, full JVA name",HIT,HIT,True,0.8138,0.191,cache,True,0.20323399295322372,0.01858651506142685
+Q6_diff_year,Different year range — different scope,MISS,HIT,False,0.868,0.19,cache,True,-0.05044018989602295,0.024865676810363155
+Q7_diff_segment,Different segment — whole company,MISS,MISS,True,0.7492,29.779,LLM,False,-0.07761190112518997,-0.4413055544701416
+Q8_diff_metric,Different metric — orders not revenue,MISS,MISS,True,0.7044,14.268,LLM,False,-0.08244818213241943,0.21660484325276289

@@ -1,0 +1,6 @@
+{
+  "verdict": "FAIL",
+  "score": 0.1,
+  "reasoning": "The chart configuration contains critical data errors that make it completely unreliable and misleading. First, the 'y_data' array does not match the source table; for example, March 2023 is listed as 0.0 in the chart config but is 22982.51 in the source. Second, December 2024 is listed as 0.0 in the chart config but is 1682.98 in the source. Third, September 2024 is correctly 0.0, but October 2024 is also 0.0 in the chart config despite being 2171.52 in the source. Fourth, the line connects months across different years (e.g., Dec 2021 to Jan 2022) without distinguishing them visually or breaking the axis, which creates a false impression of continuity and obscures year-over-year comparisons. A business user cannot trust these numbers or trends.",
+  "suggested_improvement": "Correct the y-data values to exactly match the source table for all months and years. Additionally, separate the lines by year or use a bar chart with grouped bars per year to clearly distinguish annual performance rather than connecting disparate monthly points into a single confusing line."
+}

@@ -1,0 +1,175 @@
+{
+  "titlename": "Total Umsatz SD/CO by Year",
+  "charttype": "bar",
+  "xlabel": "Year",
+  "ylabel": "Total Umsatz",
+  "y_ticks": [
+    0,
+    200000,
+    400000,
+    600000,
+    800000,
+    1000000,
+    1200000
+  ],
+  "x_ticks": [
+    2021,
+    2022,
+    2023,
+    2024
+  ],
+  "x_tick_label": [
+    "2021",
+    "2022",
+    "2023",
+    "2024"
+  ],
+  "y_tick_label": [
+    "0",
+    "200k",
+    "400k",
+    "600k",
+    "800k",
+    "1M",
+    "1.2M"
+  ],
+  "x_lim": [
+    2020.5,
+    2024.5
+  ],
+  "y_lim": [
+    0,
+    1237322
+  ],
+  "annotations": [
+    {
+      "text": "204,872",
+      "target_type": "point",
+      "data_id": null,
+      "data_value": null,
+      "x_value": 2021.0,
+      "y_value": 204872.32,
+      "x_range": null,
+      "y_range": null,
+      "style": {
+        "ha": "center",
+        "va": "bottom"
+      }
+    },
+    {
+      "text": "1,124,838",
+      "target_type": "point",
+      "data_id": null,
+      "data_value": null,
+      "x_value": 2022.0,
+      "y_value": 1124838.11,
+      "x_range": null,
+      "y_range": null,
+      "style": {
+        "ha": "center",
+        "va": "bottom"
+      }
+    },
+    {
+      "text": "656,641",
+      "target_type": "point",
+      "data_id": null,
+      "data_value": null,
+      "x_value": 2023.0,
+      "y_value": 656640.59,
+      "x_range": null,
+      "y_range": null,
+      "style": {
+        "ha": "center",
+        "va": "bottom"
+      }
+    },
+    {
+      "text": "324,925",
+      "target_type": "point",
+      "data_id": null,
+      "data_value": null,
+      "x_value": 2024.0,
+      "y_value": 324925.38,
+      "x_range": null,
+      "y_range": null,
+      "style": {
+        "ha": "center",
+        "va": "bottom"
+      }
+    },
+    {
+      "text": "+449.0%",
+      "target_type": "point",
+      "data_id": 1.0,
+      "data_value": 449.0,
+      "x_value": 2022.0,
+      "y_value": 1068596.21,
+      "x_range": null,
+      "y_range": null,
+      "style": {
+        "color": "gray",
+        "fontsize": 9
+      }
+    },
+    {
+      "text": "–41.6%",
+      "target_type": "point",
+      "data_id": 2.0,
+      "data_value": -41.6,
+      "x_value": 2023.0,
+      "y_value": 624808.56,
+      "x_range": null,
+      "y_range": null,
+      "style": {
+        "color": "gray",
+        "fontsize": 9
+      }
+    },
+    {
+      "text": "–50.5%",
+      "target_type": "point",
+      "data_id": 3.0,
+      "data_value": -50.5,
+      "x_value": 2024.0,
+      "y_value": 308679.11,
+      "x_range": null,
+      "y_range": null,
+      "style": {
+        "color": "gray",
+        "fontsize": 9
+      }
+    },
+    {
+      "text": "Multi-year avg: 577,819",
+      "target_type": "axis",
+      "data_id": null,
+      "data_value": null,
+      "x_value": null,
+      "y_value": 577819.1,
+      "x_range": null,
+      "y_range": null,
+      "style": {
+        "linestyle": "--",
+        "color": "black"
+      }
+    }
+  ],
+  "data": [
+    {
+      "x_data": [
+        2021.0,
+        2022.0,
+        2023.0,
+        2024.0
+      ],
+      "y_data": [
+        204872.32,
+        1124838.11,
+        656640.59,
+        324925.38
+      ],
+      "label": "Total Umsatz"
+    }
+  ]
+}

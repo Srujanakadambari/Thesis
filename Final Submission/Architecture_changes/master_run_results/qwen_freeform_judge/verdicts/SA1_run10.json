@@ -1,0 +1,6 @@
+{
+  "verdict": "PASS",
+  "score": 0.95,
+  "reasoning": "The chart correctly aggregates the monthly revenue data into annual totals for the years 2021-2024, directly answering the question about total earnings per year. The line chart effectively visualizes the trend, highlighting the significant peak in 2022 and the subsequent decline. The annotations provide valuable context by quantifying the percentage drops between years, which adds analytical depth beyond just showing the raw numbers. The axis labels and ticks are clear and appropriately scaled.",
+  "suggested_improvement": null
+}

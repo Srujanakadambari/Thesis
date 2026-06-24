@@ -1,0 +1,56 @@
+{
+  "titlename": "Gesamtumsatz pro Jahr (2021\u20132024)",
+  "charttype": "line",
+  "xlabel": "Jahr",
+  "ylabel": "Umsatz in \u20ac",
+  "y_ticks": [
+    0,
+    500000,
+    1000000,
+    1500000
+  ],
+  "x_ticks": [
+    2021,
+    2022,
+    2023,
+    2024
+  ],
+  "x_tick_label": [
+    "2021",
+    "2022",
+    "2023",
+    "2024"
+  ],
+  "y_tick_label": [
+    "0",
+    "500k",
+    "1M",
+    "1.5M"
+  ],
+  "x_lim": [
+    2020.5,
+    2024.5
+  ],
+  "y_lim": [
+    0,
+    1500000
+  ],
+  "annotations": null,
+  "data": [
+    {
+      "x_data": [
+        2021.0,
+        2022.0,
+        2023.0,
+        2024.0
+      ],
+      "y_data": [
+        204872.32,
+        1124838.11,
+        656640.59,
+        324925.38
+      ],
+      "label": "Gesamtumsatz"
+    }
+  ]
+}

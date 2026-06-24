@@ -1,0 +1,116 @@
+{
+  "titlename": "Jahressummen (Umsatz SD/CO) 2021-2024 \u2013 Segment JVA, Firma Teckentrup",
+  "charttype": "line",
+  "xlabel": "Jahr",
+  "ylabel": "Umsatz (\u20ac)",
+  "y_ticks": [
+    0,
+    500000,
+    1000000,
+    1500000,
+    2000000,
+    2500000
+  ],
+  "x_ticks": [
+    2021,
+    2022,
+    2023,
+    2024
+  ],
+  "x_tick_label": [
+    2021,
+    2022,
+    2023,
+    2024
+  ],
+  "y_tick_label": [
+    "0\u20ac",
+    "500.000\u20ac",
+    "1.000.000\u20ac",
+    "1.500.000\u20ac",
+    "2.000.000\u20ac",
+    "2.500.000\u20ac"
+  ],
+  "x_lim": [
+    2020.5,
+    2024.5
+  ],
+  "y_lim": [
+    0,
+    2500000
+  ],
+  "annotations": [
+    {
+      "text": "2021: 204.872,32 \u20ac",
+      "target_type": "point",
+      "data_id": 0.0,
+      "data_value": 204872.32,
+      "x_value": null,
+      "y_value": null,
+      "x_range": null,
+      "y_range": null,
+      "style": null
+    },
+    {
+      "text": "2022: 1.124.838,11 \u20ac",
+      "target_type": "point",
+      "data_id": 1.0,
+      "data_value": 1124838.11,
+      "x_value": null,
+      "y_value": null,
+      "x_range": null,
+      "y_range": null,
+      "style": null
+    },
+    {
+      "text": "2023: 656.640,59 \u20ac",
+      "target_type": "point",
+      "data_id": 2.0,
+      "data_value": 656640.59,
+      "x_value": null,
+      "y_value": null,
+      "x_range": null,
+      "y_range": null,
+      "style": null
+    },
+    {
+      "text": "2024: 324.925,38 \u20ac (Ist-Stand bis Dez)",
+      "target_type": "point",
+      "data_id": 3.0,
+      "data_value": 324925.38,
+      "x_value": null,
+      "y_value": null,
+      "x_range": null,
+      "y_range": null,
+      "style": null
+    },
+    {
+      "text": "Gesamt 2021-2024: 2.311.276,40 \u20ac",
+      "target_type": "chart",
+      "data_id": null,
+      "data_value": null,
+      "x_value": null,
+      "y_value": null,
+      "x_range": null,
+      "y_range": null,
+      "style": null
+    }
+  ],
+  "data": [
+    {
+      "x_data": [
+        2021.0,
+        2022.0,
+        2023.0,
+        2024.0
+      ],
+      "y_data": [
+        204872.32,
+        1124838.11,
+        656640.59,
+        324925.38
+      ],
+      "label": "Umsatz SD/CO"
+    }
+  ]
+}

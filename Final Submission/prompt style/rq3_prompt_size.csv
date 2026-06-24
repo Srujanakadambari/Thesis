@@ -1,0 +1,4 @@
+Level,Approx tokens,Mean latency (s),Std (s)
+Summary (~30 tokens),36,5.425,1.896
+Compact (~310 tokens),448,11.3,7.673
+Full (~448 tokens),448,10.811,6.106

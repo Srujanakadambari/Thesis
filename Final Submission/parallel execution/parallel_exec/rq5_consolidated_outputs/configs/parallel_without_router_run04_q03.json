@@ -1,0 +1,107 @@
+{
+  "titlename": "Jährlicher Umsatz SD/CO (2021–2024)",
+  "charttype": "column",
+  "xlabel": "Jahr",
+  "ylabel": "Gesamtumsatz (€)",
+  "y_ticks": [
+    0,
+    200000,
+    400000,
+    600000,
+    800000,
+    1000000,
+    1200000
+  ],
+  "x_ticks": [
+    2021,
+    2022,
+    2023,
+    2024
+  ],
+  "x_tick_label": [
+    "2021",
+    "2022",
+    "2023",
+    "2024"
+  ],
+  "y_tick_label": [
+    "0",
+    "200k",
+    "400k",
+    "600k",
+    "800k",
+    "1M",
+    "1.2M"
+  ],
+  "x_lim": [
+    2020.5,
+    2024.5
+  ],
+  "y_lim": [
+    0,
+    1200000
+  ],
+  "annotations": [
+    {
+      "text": "Rekordjahr",
+      "target_type": "point",
+      "data_id": 1.0,
+      "data_value": 1124838.63,
+      "x_value": 2022.0,
+      "y_value": 1124838.63,
+      "x_range": null,
+      "y_range": null,
+      "style": null
+    },
+    {
+      "text": "+449% vs 2021",
+      "target_type": "point",
+      "data_id": 1.0,
+      "data_value": 1124838.63,
+      "x_value": 2022.0,
+      "y_value": 1181075.4,
+      "x_range": null,
+      "y_range": null,
+      "style": null
+    },
+    {
+      "text": "-42% vs 2022",
+      "target_type": "point",
+      "data_id": 2.0,
+      "data_value": 656641.73,
+      "x_value": 2023.0,
+      "y_value": 669774.56,
+      "x_range": null,
+      "y_range": null,
+      "style": null
+    },
+    {
+      "text": "-51% vs 2023",
+      "target_type": "point",
+      "data_id": 3.0,
+      "data_value": 324925.29,
+      "x_value": 2024.0,
+      "y_value": 331423.8,
+      "x_range": null,
+      "y_range": null,
+      "style": null
+    }
+  ],
+  "data": [
+    {
+      "x_data": [
+        2021.0,
+        2022.0,
+        2023.0,
+        2024.0
+      ],
+      "y_data": [
+        204872.28,
+        1124838.63,
+        656641.73,
+        324925.29
+      ],
+      "label": "Jährlicher Umsatz"
+    }
+  ]
+}

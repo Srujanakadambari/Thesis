@@ -1,0 +1,6 @@
+{
+  "verdict": "FAIL",
+  "score": 0.4,
+  "reasoning": "The chart fails to answer the core question for two main reasons. First, it displays monthly revenue instead of aggregating the data by year as requested ('Wieviel Umsatz... in den Jahren'). A bar chart with 48 bars makes it difficult to see the annual totals at a glance; a simple bar chart with four bars (one per year) would be far superior. Second, and more critically, there is a severe data integrity issue: the provided source table contains only partial data for each year (e.g., missing March, May, July, etc., for 2021). The chart's annotations claim specific annual totals (e.g., '2021: € 204,872'), but these numbers cannot be derived from the visible data points alone (the sum of the visible months for 2021 is approx €198k). This implies either hidden data or fabricated annotations, which misleads the user about what is actually shown versus what is claimed.",
+  "suggested_improvement": "Aggregate the source data by 'Kalender[Jahr]' to calculate the total revenue for each year (2021-2024). Create a new bar chart with exactly four bars representing the years on the x-axis and the calculated yearly sums on the y-axis. Ensure the annotations reflect the actual sum of the available data or clearly state that the data is incomplete."
+}

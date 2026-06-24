@@ -1,0 +1,223 @@
+{
+  "titlename": "Umsatzentwicklung 2021-2024",
+  "charttype": "line",
+  "xlabel": "Monat",
+  "ylabel": "Umsatz in \u20ac",
+  "y_ticks": [
+    0,
+    50000,
+    100000,
+    150000,
+    200000,
+    250000,
+    300000,
+    350000,
+    400000,
+    450000,
+    500000,
+    600000,
+    700000,
+    800000,
+    900000,
+    1000000,
+    1100000,
+    1200000
+  ],
+  "x_ticks": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11
+  ],
+  "x_tick_label": [
+    "Jan",
+    "Feb",
+    "Mrz",
+    "Apr",
+    "Mai",
+    "Jun",
+    "Jul",
+    "Aug",
+    "Sep",
+    "Okt",
+    "Nov",
+    "Dez"
+  ],
+  "y_tick_label": [
+    "0",
+    "50k",
+    "100k",
+    "150k",
+    "200k",
+    "250k",
+    "300k",
+    "350k",
+    "400k",
+    "450k",
+    "500k",
+    "600k",
+    "700k",
+    "800k",
+    "900k",
+    "1M",
+    "1.1M",
+    "1.2M"
+  ],
+  "x_lim": [
+    0,
+    11
+  ],
+  "y_lim": [
+    0,
+    1200000
+  ],
+  "annotations": [
+    {
+      "text": "2021 Gesamtumsatz: 204.872,32 \u20ac",
+      "target_type": "point",
+      "data_id": 0.0,
+      "data_value": 204872.32,
+      "x_value": null,
+      "y_value": null,
+      "x_range": null,
+      "y_range": null,
+      "style": null
+    },
+    {
+      "text": "2022 Gesamtumsatz: 1.124.838,11 \u20ac",
+      "target_type": "point",
+      "data_id": 24.0,
+      "data_value": 1124838.11,
+      "x_value": null,
+      "y_value": null,
+      "x_range": null,
+      "y_range": null,
+      "style": null
+    },
+    {
+      "text": "2023 Gesamtumsatz: 656.640,59 \u20ac",
+      "target_type": "point",
+      "data_id": 36.0,
+      "data_value": 656640.59,
+      "x_value": null,
+      "y_value": null,
+      "x_range": null,
+      "y_range": null,
+      "style": null
+    },
+    {
+      "text": "2024 Gesamtumsatz: 324.925,38 \u20ac (Bisherige Daten)",
+      "target_type": "point",
+      "data_id": 48.0,
+      "data_value": 324925.38,
+      "x_value": null,
+      "y_value": null,
+      "x_range": null,
+      "y_range": null,
+      "style": null
+    },
+    {
+      "text": "Starkes Wachstum 2022",
+      "target_type": "point",
+      "data_id": null,
+      "data_value": null,
+      "x_value": 3.0,
+      "y_value": 242067.0,
+      "x_range": null,
+      "y_range": null,
+      "style": null
+    },
+    {
+      "text": "R\u00fcckgang 2023 (ca. 42% gg\u00fc. 2022)",
+      "target_type": "point",
+      "data_id": null,
+      "data_value": null,
+      "x_value": 3.0,
+      "y_value": 136945.0,
+      "x_range": null,
+      "y_range": null,
+      "style": null
+    },
+    {
+      "text": "Kasualit\u00e4t: Hochphasen Mai\u2013Juni und Okt\u2013Nov",
+      "target_type": "chart",
+      "data_id": null,
+      "data_value": null,
+      "x_value": null,
+      "y_value": null,
+      "x_range": null,
+      "y_range": null,
+      "style": null
+    }
+  ],
+  "data": [
+    {
+      "x_data": [
+        0.0,
+        1.0,
+        2.0,
+        3.0
+      ],
+      "y_data": [
+        12308.1,
+        11619.17,
+        6366.93,
+        30264.05
+      ],
+      "label": "2021"
+    },
+    {
+      "x_data": [
+        0.0,
+        1.0,
+        2.0,
+        3.0
+      ],
+      "y_data": [
+        9099.13,
+        7901.51,
+        43886.0,
+        8222.0
+      ],
+      "label": "2022"
+    },
+    {
+      "x_data": [
+        0.0,
+        1.0,
+        2.0,
+        3.0
+      ],
+      "y_data": [
+        39018.99,
+        11985.62,
+        22982.51,
+        136944.76
+      ],
+      "label": "2023"
+    },
+    {
+      "x_data": [
+        0.0,
+        1.0,
+        2.0,
+        3.0
+      ],
+      "y_data": [
+        17836.38,
+        24220.52,
+        5705.99,
+        4960.46
+      ],
+      "label": "2024"
+    }
+  ]
+}

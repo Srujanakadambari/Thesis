@@ -1,0 +1,6 @@
+{
+  "verdict": "FAIL",
+  "score": 0.3,
+  "reasoning": "The business question explicitly asks for the revenue ('Wieviel Umsatz') in the years 2021 to 2024 and requests a detailed analysis based on 'total earnings'. The provided chart displays monthly revenue data points overlaid on top of each other without aggregation. This makes it impossible to determine the total annual revenue for any given year at a glance. A line chart showing monthly fluctuations is useful for seasonality but fails to directly answer the core question about the total yearly performance. Furthermore, plotting four separate lines with such high variance (e.g., June 2022 vs July 2024) creates significant visual clutter and occlusion, making accurate comparison difficult. The user needs to see aggregated totals per year, likely via a bar or column chart.",
+  "suggested_improvement": "Change the chart type to a Bar Chart where the X-axis represents the Years (2021-2024) and the Y-axis represents the Sum of Revenue ([Umsatz SD/CO]) for that year. This will clearly display the total earnings requested."
+}

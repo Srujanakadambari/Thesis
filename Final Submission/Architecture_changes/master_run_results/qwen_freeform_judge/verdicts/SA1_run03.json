@@ -1,0 +1,6 @@
+{
+  "verdict": "FAIL",
+  "score": 0.4,
+  "reasoning": "The chart visualizes the *monthly* revenue trends rather than answering the specific question about *total* annual revenue for the years 2021-2024. While the data points are correct and allow a user to manually sum them up, the visualization does not directly present the aggregate figures requested ('Wieviel Umsatz...'). A business user asking for total earnings expects to see yearly totals (e.g., via a bar chart) or clear annotations of the sums, not just raw monthly lines which require mental aggregation. Additionally, plotting four overlapping line series on one axis makes it difficult to compare the scale differences between years (especially 2022 vs others) without clutter.",
+  "suggested_improvement": "Change the chart type to a Bar Chart showing aggregated Annual Revenue per year (2021, 2022, 2023, 2024) to directly answer the question about total earnings."
+}

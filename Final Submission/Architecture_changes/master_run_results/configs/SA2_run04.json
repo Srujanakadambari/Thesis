@@ -1,0 +1,237 @@
+{
+  "titlename": "J\u00e4hrliche Ums\u00e4tze (Summe Jan\u2013Dez) mit Monatsverlauf",
+  "charttype": "line",
+  "xlabel": "Monate",
+  "ylabel": "Umsatz (\u20ac)",
+  "y_ticks": [
+    0,
+    50000,
+    100000,
+    150000,
+    200000,
+    250000,
+    300000
+  ],
+  "x_ticks": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11
+  ],
+  "x_tick_label": [
+    "Jan",
+    "Feb",
+    "Mrz",
+    "Apr",
+    "Mai",
+    "Jun",
+    "Jul",
+    "Aug",
+    "Sep",
+    "Okt",
+    "Nov",
+    "Dez"
+  ],
+  "y_tick_label": [
+    "0",
+    "50k",
+    "100k",
+    "150k",
+    "200k",
+    "250k",
+    "300k"
+  ],
+  "x_lim": [
+    0,
+    11
+  ],
+  "y_lim": [
+    0,
+    300000
+  ],
+  "annotations": [
+    {
+      "text": "H\u00f6chster Einzelmonat: Juni 2022 mit \u20ac 242.067",
+      "target_type": "point",
+      "data_id": 22.0,
+      "data_value": 242067.0,
+      "x_value": null,
+      "y_value": null,
+      "x_range": null,
+      "y_range": null,
+      "style": null
+    },
+    {
+      "text": "Weitere Hochphasen: Nov 2022 (\u20ac 191.821), Dez 2022 (\u20ac 107.768), Apr 2023 (\u20ac 136.945)",
+      "target_type": "chart",
+      "data_id": null,
+      "data_value": null,
+      "x_value": null,
+      "y_value": null,
+      "x_range": null,
+      "y_range": null,
+      "style": null
+    },
+    {
+      "text": "Tiefpunkte: Sep 2024 (\u20ac 0), Dez 2023 (\u20ac 308), Jul 2024 (\u20ac 2.534)",
+      "target_type": "chart",
+      "data_id": null,
+      "data_value": null,
+      "x_value": null,
+      "y_value": null,
+      "x_range": null,
+      "y_range": null,
+      "style": null
+    },
+    {
+      "text": "J\u00e4hrliche Ums\u00e4tze 2021: \u20ac 204.872,32",
+      "target_type": "chart",
+      "data_id": null,
+      "data_value": 204872.32,
+      "x_value": null,
+      "y_value": null,
+      "x_range": null,
+      "y_range": null,
+      "style": null
+    },
+    {
+      "text": "J\u00e4hrliche Ums\u00e4tze 2022: \u20ac 1.124.838,11",
+      "target_type": "chart",
+      "data_id": null,
+      "data_value": 1124838.11,
+      "x_value": null,
+      "y_value": null,
+      "x_range": null,
+      "y_range": null,
+      "style": null
+    },
+    {
+      "text": "J\u00e4hrliche Ums\u00e4tze 2023: \u20ac 656.640,59",
+      "target_type": "chart",
+      "data_id": null,
+      "data_value": 656640.59,
+      "x_value": null,
+      "y_value": null,
+      "x_range": null,
+      "y_range": null,
+      "style": null
+    },
+    {
+      "text": "J\u00e4hrliche Ums\u00e4tze 2024: \u20ac 324.925,38",
+      "target_type": "chart",
+      "data_id": null,
+      "data_value": 324925.38,
+      "x_value": null,
+      "y_value": null,
+      "x_range": null,
+      "y_range": null,
+      "style": null
+    }
+  ],
+  "data": [
+    {
+      "x_data": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "y_data": [
+        30264.05,
+        9660.99,
+        31104.06,
+        11619.17,
+        12308.1,
+        4399.77,
+        12705.9,
+        4013.68,
+        6366.93,
+        43170.69,
+        31067.25,
+        8191.73
+      ],
+      "label": "2021"
+    },
+    {
+      "x_data": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "y_data": [
+        8222.0,
+        114949.62,
+        107768.1,
+        7901.51,
+        9099.13,
+        49897.36,
+        242067.31,
+        79558.31,
+        43886.0,
+        191821.13,
+        126704.83,
+        142962.81
+      ],
+      "label": "2022"
+    },
+    {
+      "x_data": [
+        2.0,
+        2.0,
+        2.0,
+        2.0,
+        2.0
+      ],
+      "y_data": [
+        136944.76,
+        94834.47,
+        308.46,
+        11985.62,
+        39018.99,
+        56252.4,
+        93584.47,
+        59338.62,
+        22982.51,
+        81661.45,
+        4556.49,
+        55172.35
+      ],
+      "label": "2023"
+    },
+    {
+      "x_data": [
+        3.0,
+        3.0,
+        3.0,
+        3.0,
+        3.0
+      ],
+      "y_data": [
+        4960.46,
+        94434.55,
+        1682.98,
+        24220.52,
+        17836.38,
+        2534.01,
+        22302.27,
+        59299.74,
+        5705.99,
+        89776.96,
+        2171.52,
+        0.0
+      ],
+      "label": "2024"
+    }
+  ]
+}

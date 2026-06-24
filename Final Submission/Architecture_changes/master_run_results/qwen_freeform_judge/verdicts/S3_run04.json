@@ -1,0 +1,6 @@
+{
+  "verdict": "PASS",
+  "score": 0.95,
+  "reasoning": "The chart correctly answers the business question by aggregating the monthly data into annual totals for the years 2021-2024. A line chart is appropriate for showing trends over time, and the annotations provide the exact figures requested ('Wieviel Umsatz...'). The y-axis scale accommodates the outlier year (2022) well without distorting the other values too much. While a bar chart might be slightly more intuitive for comparing discrete yearly totals, the line chart effectively highlights the significant peak in 2022 compared to the surrounding years.",
+  "suggested_improvement": "Consider using a bar chart instead of a line chart, as 'Year' is a categorical variable in this context and bars often make it easier to compare specific magnitudes between distinct periods."
+}

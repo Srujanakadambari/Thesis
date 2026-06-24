@@ -1,0 +1,6 @@
+{
+  "verdict": "FAIL",
+  "score": 0.3,
+  "reasoning": "The chart fails to answer the specific business question for two main reasons: 1) It displays monthly data points rather than the requested annual totals ('Wieviel Umsatz... in den Jahren'). A bar chart showing 48 individual bars (or overlaid lines) makes it difficult to quickly compare year-over-year performance or see the total volume per year. 2) The labels are generic ('Label of data'), making it impossible for a user to distinguish which series corresponds to which year without guessing based on magnitude. While the underlying data is correct, the visualization format is inappropriate for summarizing yearly revenue.",
+  "suggested_improvement": "Aggregate the data by Year and create a simple bar chart with four bars (one for each year: 2021, 2022, 2023, 2024) representing the total sales sum for that year."
+}

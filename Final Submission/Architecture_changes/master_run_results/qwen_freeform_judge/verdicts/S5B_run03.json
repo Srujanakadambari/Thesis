@@ -1,0 +1,6 @@
+{
+  "verdict": "FAIL",
+  "score": 0.1,
+  "reasoning": "The visualization fails completely on two counts: data completeness and relevance to the question. First, it only includes data for the year 2021, ignoring 2022, 2023, and 2024 entirely. Second, the question asks for total revenue per year ('Wieviel Umsatz... in den Jahren'), implying an aggregation or a comparison of annual totals. This chart shows monthly fluctuations for a single year without aggregating the yearly sums, which does not directly answer 'how much revenue' was generated in each of those years. A business user would find this misleading as it hides the majority of the requested time period.",
+  "suggested_improvement": "Create a bar chart or line chart showing the aggregated Total Revenue for each year (2021, 2022, 2023, 2024) to clearly display the annual performance across the full requested timeframe."
+}

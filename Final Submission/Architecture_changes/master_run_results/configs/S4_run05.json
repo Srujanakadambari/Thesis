@@ -1,0 +1,252 @@
+{
+  "titlename": "Monthly Revenue Distribution 2021-2024",
+  "charttype": "line",
+  "xlabel": "Months",
+  "ylabel": "Revenue (SD/CO)",
+  "y_ticks": [
+    0,
+    250000,
+    500000,
+    750000,
+    1000000,
+    1250000
+  ],
+  "x_ticks": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11
+  ],
+  "x_tick_label": [
+    "Jan",
+    "Feb",
+    "Mar",
+    "Apr",
+    "May",
+    "Jun",
+    "Jul",
+    "Aug",
+    "Sep",
+    "Oct",
+    "Nov",
+    "Dec"
+  ],
+  "y_tick_label": [
+    "0",
+    "250k",
+    "500k",
+    "750k",
+    "1M",
+    "1.25M"
+  ],
+  "x_lim": [
+    0,
+    11
+  ],
+  "y_lim": [
+    0,
+    1250000
+  ],
+  "annotations": [
+    {
+      "text": "Peak in revenue (Jun 2022)",
+      "target_type": "point",
+      "data_id": 17.0,
+      "data_value": 242067.31,
+      "x_value": 5.0,
+      "y_value": 242067.31,
+      "x_range": null,
+      "y_range": null,
+      "style": null
+    },
+    {
+      "text": "Peak in revenue (Nov 2022)",
+      "target_type": "point",
+      "data_id": 22.0,
+      "data_value": 191821.13,
+      "x_value": 10.0,
+      "y_value": 191821.13,
+      "x_range": null,
+      "y_range": null,
+      "style": null
+    },
+    {
+      "text": "Anomaly (Dec 2023)",
+      "target_type": "point",
+      "data_id": 35.0,
+      "data_value": 308.46,
+      "x_value": 11.0,
+      "y_value": 308.46,
+      "x_range": null,
+      "y_range": null,
+      "style": null
+    },
+    {
+      "text": "Peak in revenue (Aug 2024)",
+      "target_type": "point",
+      "data_id": 84.0,
+      "data_value": 94434.55,
+      "x_value": 7.0,
+      "y_value": 94434.55,
+      "x_range": null,
+      "y_range": null,
+      "style": null
+    },
+    {
+      "text": "Zero revenue (Sep 2024)",
+      "target_type": "point",
+      "data_id": 82.0,
+      "data_value": 0.0,
+      "x_value": 8.0,
+      "y_value": 0.0,
+      "x_range": null,
+      "y_range": null,
+      "style": null
+    },
+    {
+      "text": "Revenue dip (Oct 2023)",
+      "target_type": "point",
+      "data_id": 34.0,
+      "data_value": 4556.49,
+      "x_value": 9.0,
+      "y_value": 4556.49,
+      "x_range": null,
+      "y_range": null,
+      "style": null
+    }
+  ],
+  "data": [
+    {
+      "x_data": [
+        0.0,
+        1.0,
+        2.0,
+        3.0,
+        4.0,
+        5.0,
+        6.0,
+        7.0,
+        8.0,
+        9.0,
+        10.0,
+        11.0
+      ],
+      "y_data": [
+        12308.1,
+        11619.17,
+        6366.93,
+        30264.05,
+        4013.68,
+        12705.9,
+        4399.77,
+        9660.99,
+        31067.25,
+        43170.69,
+        8191.73,
+        31104.06
+      ],
+      "label": "2021"
+    },
+    {
+      "x_data": [
+        0.0,
+        1.0,
+        2.0,
+        3.0,
+        4.0,
+        5.0,
+        6.0,
+        7.0,
+        8.0,
+        9.0,
+        10.0,
+        11.0
+      ],
+      "y_data": [
+        9099.13,
+        7901.51,
+        43886.0,
+        8222.0,
+        79558.31,
+        242067.31,
+        49897.36,
+        114949.62,
+        126704.83,
+        142962.81,
+        191821.13,
+        107768.1
+      ],
+      "label": "2022"
+    },
+    {
+      "x_data": [
+        0.0,
+        1.0,
+        2.0,
+        3.0,
+        4.0,
+        5.0,
+        6.0,
+        7.0,
+        8.0,
+        9.0,
+        10.0,
+        11.0
+      ],
+      "y_data": [
+        39018.99,
+        11985.62,
+        22982.51,
+        136944.76,
+        59338.62,
+        93584.47,
+        56252.4,
+        94834.47,
+        55172.35,
+        4556.49,
+        81661.45,
+        308.46
+      ],
+      "label": "2023"
+    },
+    {
+      "x_data": [
+        0.0,
+        1.0,
+        2.0,
+        3.0,
+        4.0,
+        5.0,
+        6.0,
+        7.0,
+        8.0,
+        9.0,
+        10.0,
+        11.0
+      ],
+      "y_data": [
+        17836.38,
+        24220.52,
+        5705.99,
+        4960.46,
+        59299.74,
+        22302.27,
+        2534.01,
+        94434.55,
+        0.0,
+        2171.52,
+        89776.96,
+        1682.98
+      ],
+      "label": "2024"
+    }
+  ]
+}

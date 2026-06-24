@@ -1,0 +1,6 @@
+{
+  "verdict": "FAIL",
+  "score": 0.3,
+  "reasoning": "The chart fails to answer the business question for two critical reasons. First, it displays monthly revenue data points rather than aggregating them by year as requested ('in den Jahren 2021 bis 2024'). A user looking for annual totals cannot easily sum up the individual months from a line chart without external tools. Second, and more importantly, the data series is completely scrambled chronologically. The x-axis labels suggest a chronological order (Jan, Apr, Jul...), but the underlying y-data values do not correspond to those dates in any logical sequence (e.g., index 0 has value 12308 which matches Jan 2021, but index 1 has 30264 which matches Apr 2021, while index 2 has 4399 which matches Jul 2021). This creates a nonsensical zig-zag pattern that misrepresents the actual trend of the company's performance. For instance, June 2022 was the peak month (~242k), but in this chart, that high value appears at index 19, which corresponds to the label '2022 Okt' or nearby depending on interpretation, breaking the time-series integrity.",
+  "suggested_improvement": "Aggregate the revenue data by year (summing all months for each year) and use a bar chart or column chart to show the total annual revenue for 2021, 2022, 2023, and 2024. Ensure the x-axis represents the years clearly."
+}

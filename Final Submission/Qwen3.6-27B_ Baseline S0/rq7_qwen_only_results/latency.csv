@@ -1,0 +1,11 @@
+run,cold_start,model,total_latency,router_latency,analyze_latency,extract_latency,justify_latency,quality_score,passed,charttype,title,n_data_groups,n_annotations,renderable,tokens_total,error
+1,True,Qwen3.6-27B,31.846,2.681,11.725,15.202,2.236,7,True,line,Monthly Revenue Trend (SD/CO) 2021-2024,1,3,False,10510,
+2,False,Qwen3.6-27B,35.293,2.641,10.346,20.108,2.198,8,True,line,Monthly Revenue Trend (SD/CO Segment),1,3,True,10895,
+3,False,Qwen3.6-27B,416.205,2.806,8.501,402.584,2.312,6,True,line,Monthly Revenue Trend ([Umsatz SD/CO]),1,3,False,17578,
+4,False,Qwen3.6-27B,33.601,2.81,9.424,19.252,2.114,8,True,line,Monthly Revenue [Umsatz SD/CO] 2021-2024,1,4,True,10334,
+5,False,Qwen3.6-27B,33.677,2.779,7.402,21.449,2.046,6,True,line,Monthly Sales Revenue (Umsatz SD/CO) by Year,1,3,False,10210,
+6,False,Qwen3.6-27B,32.65,2.676,8.404,19.611,1.958,8,True,line,Monthly Sales Revenue (Umsatz SD/CO) 2021-2024,1,3,True,10215,
+7,False,Qwen3.6-27B,29.922,2.785,5.094,19.797,2.246,8,True,column,Monthly Revenue [Umsatz SD/CO] (2021-2024),1,4,True,9551,
+8,False,Qwen3.6-27B,32.298,2.802,9.422,17.919,2.154,8,True,line,Monthly Revenue Trend (Umsatz SD/CO) 2021-2024,1,2,True,10426,
+9,False,Qwen3.6-27B,32.544,2.789,10.414,17.103,2.238,6,True,line,Monthly Revenue [Umsatz SD/CO] (2021-2024),1,2,False,10425,
+10,False,Qwen3.6-27B,33.386,2.772,6.954,21.507,2.152,6,True,line,Monthly Revenue Trend (Umsatz SD/CO) 2021-2024,1,3,False,10069,

@@ -1,0 +1,146 @@
+{
+  "titlename": "Monthly Revenue Overview (2021-2024)",
+  "charttype": "line",
+  "xlabel": "Month",
+  "ylabel": "Revenue (SD/CO)",
+  "y_ticks": [
+    0,
+    50000,
+    100000,
+    150000,
+    200000,
+    250000
+  ],
+  "x_ticks": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12
+  ],
+  "x_tick_label": [
+    "Jan",
+    "Feb",
+    "Mar",
+    "Apr",
+    "May",
+    "Jun",
+    "Jul",
+    "Aug",
+    "Sep",
+    "Oct",
+    "Nov",
+    "Dec"
+  ],
+  "y_tick_label": [
+    "0",
+    "50k",
+    "100k",
+    "150k",
+    "200k",
+    "250k"
+  ],
+  "x_lim": [
+    1,
+    12
+  ],
+  "y_lim": [
+    0,
+    250000
+  ],
+  "annotations": [
+    {
+      "text": "Peak Revenue in Jun 2022 - 242067.31",
+      "target_type": "point",
+      "data_id": 16.0,
+      "data_value": 242067.31,
+      "x_value": 6.0,
+      "y_value": 242067.31,
+      "x_range": null,
+      "y_range": null,
+      "style": null
+    },
+    {
+      "text": "Significant Revenue Drop in Sep 2024 - 0.00",
+      "target_type": "point",
+      "data_id": 48.0,
+      "data_value": 0.0,
+      "x_value": 9.0,
+      "y_value": 0.0,
+      "x_range": null,
+      "y_range": null,
+      "style": null
+    },
+    {
+      "text": "Consistent High Revenue in Apr, Nov, and Jul",
+      "target_type": "chart",
+      "data_id": null,
+      "data_value": null,
+      "x_value": null,
+      "y_value": null,
+      "x_range": null,
+      "y_range": null,
+      "style": null
+    }
+  ],
+  "data": [
+    {
+      "x_data": [
+        1.0,
+        2.0,
+        3.0,
+        4.0,
+        5.0,
+        6.0,
+        7.0,
+        8.0,
+        9.0,
+        10.0,
+        11.0,
+        12.0
+      ],
+      "y_data": [
+        12308.1,
+        11619.17,
+        6366.93,
+        30264.05,
+        4013.68,
+        12705.9,
+        4399.77,
+        9660.99,
+        31067.25,
+        43170.69,
+        8191.73,
+        31104.06,
+        9099.13,
+        7901.51,
+        11985.62,
+        136944.76,
+        79558.31,
+        242067.31,
+        49897.36,
+        114949.62,
+        126704.83,
+        191821.13,
+        142962.81,
+        1682.98,
+        17836.38,
+        24220.52,
+        4960.46,
+        2534.01,
+        94434.55,
+        4556.49,
+        55172.35,
+        0.0
+      ],
+      "label": "Umsatz SD/CO"
+    }
+  ]
+}

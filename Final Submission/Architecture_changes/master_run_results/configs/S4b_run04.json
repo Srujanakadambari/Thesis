@@ -1,0 +1,152 @@
+{
+  "titlename": "Teckentrup Revenue Analysis (2021-2024)",
+  "charttype": "bar",
+  "xlabel": "Year",
+  "ylabel": "Revenue [Umsatz SD/CO]",
+  "y_ticks": [
+    0,
+    50000,
+    100000,
+    150000,
+    200000,
+    250000,
+    300000,
+    350000,
+    400000,
+    450000,
+    500000,
+    550000,
+    600000,
+    650000,
+    700000,
+    750000,
+    800000,
+    850000,
+    900000,
+    950000,
+    1000000,
+    1050000,
+    1100000,
+    1150000,
+    1200000,
+    1250000,
+    1300000,
+    1350000
+  ],
+  "x_ticks": [
+    2021,
+    2022,
+    2023,
+    2024
+  ],
+  "x_tick_label": [
+    "2021",
+    "2022",
+    "2023",
+    "2024"
+  ],
+  "y_tick_label": [
+    "0",
+    "50k",
+    "100k",
+    "150k",
+    "200k",
+    "250k",
+    "300k",
+    "350k",
+    "400k",
+    "450k",
+    "500k",
+    "550k",
+    "600k",
+    "650k",
+    "700k",
+    "750k",
+    "800k",
+    "850k",
+    "900k",
+    "950k",
+    "1M",
+    "1.05M",
+    "1.1M",
+    "1.15M",
+    "1.2M",
+    "1.25M",
+    "1.3M",
+    "1.35M",
+    "1.4M",
+    "1.45M",
+    "1.5M"
+  ],
+  "x_lim": [
+    2020.5,
+    2024.5
+  ],
+  "y_lim": [
+    0,
+    1400000
+  ],
+  "annotations": [
+    {
+      "text": "Total Revenue 2021: 221272.32",
+      "target_type": "point",
+      "data_id": 0.0,
+      "data_value": 221272.32,
+      "x_value": null,
+      "y_value": null,
+      "x_range": null,
+      "y_range": null,
+      "style": null
+    },
+    {
+      "text": "Total Revenue 2022: 1335838.11 (High Growth)",
+      "target_type": "point",
+      "data_id": 13.0,
+      "data_value": 1335838.11,
+      "x_value": null,
+      "y_value": null,
+      "x_range": null,
+      "y_range": null,
+      "style": null
+    },
+    {
+      "text": "Total Revenue 2023: 689640.59",
+      "target_type": "point",
+      "data_id": 25.0,
+      "data_value": 689640.59,
+      "x_value": null,
+      "y_value": null,
+      "x_range": null,
+      "y_range": null,
+      "style": null
+    },
+    {
+      "text": "Total Revenue 2024: 333925.38 (Decline)",
+      "target_type": "point",
+      "data_id": 37.0,
+      "data_value": 333925.38,
+      "x_value": null,
+      "y_value": null,
+      "x_range": null,
+      "y_range": null,
+      "style": null
+    }
+  ],
+  "data": [
+    {
+      "x_data": [
+        2021.0,
+        2022.0,
+        2023.0,
+        2024.0
+      ],
+      "y_data": [
+        221272.32,
+        1335838.11,
+        689640.59,
+        333925.38
+      ],
+      "label": "Revenue Overview"
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+{
+  "verdict": "FAIL",
+  "score": 0.1,
+  "reasoning": "The visualization is fundamentally broken due to axis limits and data mapping errors. \n1. **Truncated Data**: The `x_lim` is set to `[0, 12]`, which cuts off all data after December 2021 (indices 0-11). The question asks for 2021-2024, so the chart fails to show 75% of the relevant timeline.\n2. **Incorrect Chart Type**: A 'stacked bar' chart implies multiple series stacked on top of each other per x-axis category. Here, there are four separate datasets plotted against disjoint x-ranges (0-11, 12-23, etc.). This results in empty space or misaligned bars rather than a meaningful comparison. A simple line chart or grouped bar chart would be appropriate.\n3. **Annotation Placement**: Annotations reference indices like 12, 24, 36, which are outside the visible plot area defined by `x_lim`. Therefore, the key insights (annual totals) are not visible on the chart itself.",
+  "suggested_improvement": "Change `x_lim` to `[0, 48]` to display the full 4-year period. Change `charttype` to 'line' or 'grouped_bar' to properly compare monthly trends across years without stacking unrelated time periods."
+}

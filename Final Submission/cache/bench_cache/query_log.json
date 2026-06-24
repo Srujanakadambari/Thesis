@@ -1,0 +1,173 @@
+[
+  {
+    "ts": "2026-05-27T09:38",
+    "query": "Visualize the revenue distribution across months for 20",
+    "scenario": "S0",
+    "cache_hit": false,
+    "similarity": 0.0,
+    "latency_s": 33.022,
+    "verdict": "\u2014"
+  },
+  {
+    "ts": "2026-05-27T09:40",
+    "query": "Which year had the highest total revenue and by how muc",
+    "scenario": "S0",
+    "cache_hit": false,
+    "similarity": 0.0,
+    "latency_s": 40.57,
+    "verdict": "FAIL"
+  },
+  {
+    "ts": "2026-05-27T09:41",
+    "query": "Analysiere die monatlichen Umsatzdaten von 2021 bis 202",
+    "scenario": "S0",
+    "cache_hit": false,
+    "similarity": 0.0,
+    "latency_s": 69.766,
+    "verdict": "FAIL"
+  },
+  {
+    "ts": "2026-05-27T09:43",
+    "query": "Analysiere die monatlichen Umsatzdaten von 2021 bis 202",
+    "scenario": "S0",
+    "cache_hit": false,
+    "similarity": 0.0,
+    "latency_s": 101.351,
+    "verdict": "FAIL"
+  },
+  {
+    "ts": "2026-05-27T09:45",
+    "query": "Analysiere die monatlichen Umsatzdaten von 2021 bis 202",
+    "scenario": "S0",
+    "cache_hit": false,
+    "similarity": 0.0,
+    "latency_s": 71.128,
+    "verdict": "FAIL"
+  },
+  {
+    "ts": "2026-05-27T09:47",
+    "query": "Analysiere die monatlichen Umsatzdaten von 2021 bis 202",
+    "scenario": "S0",
+    "cache_hit": false,
+    "similarity": 0.0,
+    "latency_s": 65.975,
+    "verdict": "FAIL"
+  },
+  {
+    "ts": "2026-05-27T09:48",
+    "query": "Analysiere die monatlichen Umsatzdaten von 2021 bis 202",
+    "scenario": "S0",
+    "cache_hit": false,
+    "similarity": 0.0,
+    "latency_s": 58.056,
+    "verdict": "FAIL"
+  },
+  {
+    "ts": "2026-05-27T09:53",
+    "query": "Show me the year-over-year revenue trend for each month",
+    "scenario": "S0",
+    "cache_hit": false,
+    "similarity": 0.0,
+    "latency_s": 54.05,
+    "verdict": "FAIL"
+  },
+  {
+    "ts": "2026-05-27T09:54",
+    "query": "Show me the year-over-year revenue trend for each month",
+    "scenario": "S0",
+    "cache_hit": false,
+    "similarity": 0.0,
+    "latency_s": 47.364,
+    "verdict": "FAIL"
+  },
+  {
+    "ts": "2026-05-27T22:45",
+    "query": "Visualize the revenue distribution across months for 20",
+    "scenario": "S0",
+    "cache_hit": false,
+    "similarity": 0.0,
+    "latency_s": 53.323,
+    "verdict": "\u2014"
+  },
+  {
+    "ts": "2026-05-27T23:45",
+    "query": "Compare Teckentrup's monthly revenue performance across",
+    "scenario": "S0",
+    "cache_hit": false,
+    "similarity": 0.0,
+    "latency_s": 75.505,
+    "verdict": "FAIL"
+  },
+  {
+    "ts": "2026-05-27T23:50",
+    "query": "Compare Teckentrup's monthly revenue performance across",
+    "scenario": "S9",
+    "cache_hit": false,
+    "similarity": 0.0,
+    "latency_s": 14.567,
+    "verdict": "FAIL"
+  },
+  {
+    "ts": "2026-05-27T23:51",
+    "query": "Compare Teckentrup's monthly revenue performance across",
+    "scenario": "S5b",
+    "cache_hit": false,
+    "similarity": 0.0,
+    "latency_s": 21.258,
+    "verdict": "FAIL"
+  },
+  {
+    "ts": "2026-05-27T23:53",
+    "query": "Compare Teckentrup's monthly revenue performance across",
+    "scenario": "S5b",
+    "cache_hit": false,
+    "similarity": 0.0,
+    "latency_s": 23.466,
+    "verdict": "FAIL"
+  },
+  {
+    "ts": "2026-05-27T23:53",
+    "query": "Compare Teckentrup's monthly revenue performance across",
+    "scenario": "S5b",
+    "cache_hit": true,
+    "similarity": 1.0,
+    "latency_s": 1.183,
+    "verdict": "FAIL"
+  },
+  {
+    "ts": "2026-05-28T10:34",
+    "query": "Visualize the revenue distribution across months for 20",
+    "scenario": "S0",
+    "cache_hit": false,
+    "similarity": 0.0,
+    "latency_s": 30.499,
+    "verdict": "PASS"
+  },
+  {
+    "ts": "2026-05-28T10:36",
+    "query": "Visualize the revenue distribution across months for 20",
+    "scenario": "S0",
+    "cache_hit": false,
+    "similarity": 0.0,
+    "latency_s": 41.602,
+    "verdict": "FAIL"
+  },
+  {
+    "ts": "2026-05-28T10:37",
+    "query": "Visualize the revenue distribution across months for 20",
+    "scenario": "S0",
+    "cache_hit": false,
+    "similarity": 0.0,
+    "latency_s": 36.69,
+    "verdict": "PASS"
+  },
+  {
+    "ts": "2026-05-28T10:37",
+    "query": "Visualize the revenue distribution across months for 20",
+    "scenario": "S0",
+    "cache_hit": true,
+    "similarity": 1.0,
+    "latency_s": 0.877,
+    "verdict": "PASS"
+  }
+]

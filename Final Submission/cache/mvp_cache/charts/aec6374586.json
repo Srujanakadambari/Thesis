@@ -1,0 +1,119 @@
+{
+  "titlename": "Yearly Total Revenue and YoY Growth (2021–2024)",
+  "charttype": "line",
+  "xlabel": "Year",
+  "ylabel": "Total Revenue (€)",
+  "y_ticks": [
+    0,
+    200000,
+    400000,
+    600000,
+    800000,
+    1000000,
+    1200000
+  ],
+  "x_ticks": [
+    0,
+    1,
+    2,
+    3
+  ],
+  "x_tick_label": [
+    "2021",
+    "2022",
+    "2023",
+    "2024"
+  ],
+  "y_tick_label": [
+    "0",
+    "200k",
+    "400k",
+    "600k",
+    "800k",
+    "1M",
+    "1.2M"
+  ],
+  "x_lim": [
+    -0.5,
+    3.5
+  ],
+  "y_lim": [
+    0,
+    1200000
+  ],
+  "annotations": [
+    {
+      "text": "Baseline year",
+      "target_type": "point",
+      "data_id": 0.0,
+      "data_value": 204872.32,
+      "x_value": 0.0,
+      "y_value": 204872.32,
+      "x_range": null,
+      "y_range": null,
+      "style": {
+        "color": "grey",
+        "fontsize": 9
+      }
+    },
+    {
+      "text": "Peak in 2022 (+449.1% YoY)",
+      "target_type": "point",
+      "data_id": 1.0,
+      "data_value": 1124838.11,
+      "x_value": 1.0,
+      "y_value": 1124838.11,
+      "x_range": null,
+      "y_range": null,
+      "style": {
+        "color": "green",
+        "arrow": true
+      }
+    },
+    {
+      "text": "2023 down –41.6%",
+      "target_type": "point",
+      "data_id": 2.0,
+      "data_value": 656640.59,
+      "x_value": 2.0,
+      "y_value": 656640.59,
+      "x_range": null,
+      "y_range": null,
+      "style": {
+        "color": "orange",
+        "arrow": true
+      }
+    },
+    {
+      "text": "2024 down –50.5%",
+      "target_type": "point",
+      "data_id": 3.0,
+      "data_value": 324925.38,
+      "x_value": 3.0,
+      "y_value": 324925.38,
+      "x_range": null,
+      "y_range": null,
+      "style": {
+        "color": "red",
+        "arrow": true
+      }
+    }
+  ],
+  "data": [
+    {
+      "x_data": [
+        0.0,
+        1.0,
+        2.0,
+        3.0
+      ],
+      "y_data": [
+        204872.32,
+        1124838.11,
+        656640.59,
+        324925.38
+      ],
+      "label": "Total Revenue"
+    }
+  ]
+}

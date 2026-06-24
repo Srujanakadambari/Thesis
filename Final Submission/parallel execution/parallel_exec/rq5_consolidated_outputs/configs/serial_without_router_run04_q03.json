@@ -1,0 +1,94 @@
+{
+  "titlename": "Annual Revenue by Year",
+  "charttype": "column",
+  "xlabel": "Year",
+  "ylabel": "Revenue (€)",
+  "y_ticks": [
+    0,
+    250000,
+    500000,
+    750000,
+    1000000,
+    1250000
+  ],
+  "x_ticks": [
+    0,
+    1,
+    2,
+    3
+  ],
+  "x_tick_label": [
+    "2021",
+    "2022",
+    "2023",
+    "2024"
+  ],
+  "y_tick_label": [
+    "0",
+    "250k",
+    "500k",
+    "750k",
+    "1M",
+    "1.25M"
+  ],
+  "x_lim": [
+    -0.5,
+    3.5
+  ],
+  "y_lim": [
+    0,
+    1250000
+  ],
+  "annotations": [
+    {
+      "text": "Baseline 2021: €204,872",
+      "target_type": "axis",
+      "data_id": null,
+      "data_value": null,
+      "x_value": null,
+      "y_value": 204872.0,
+      "x_range": null,
+      "y_range": null,
+      "style": null
+    },
+    {
+      "text": "Peak year (2022)",
+      "target_type": "point",
+      "data_id": 1.0,
+      "data_value": 1124838.0,
+      "x_value": null,
+      "y_value": null,
+      "x_range": null,
+      "y_range": null,
+      "style": null
+    },
+    {
+      "text": "Notable drop in 2024",
+      "target_type": "point",
+      "data_id": 3.0,
+      "data_value": 324925.0,
+      "x_value": null,
+      "y_value": null,
+      "x_range": null,
+      "y_range": null,
+      "style": null
+    }
+  ],
+  "data": [
+    {
+      "x_data": [
+        0.0,
+        1.0,
+        2.0,
+        3.0
+      ],
+      "y_data": [
+        204872.0,
+        1124838.0,
+        657641.0,
+        324925.0
+      ],
+      "label": "Annual Revenue"
+    }
+  ]
+}

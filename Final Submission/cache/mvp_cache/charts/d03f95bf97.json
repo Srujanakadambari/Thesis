@@ -1,0 +1,18 @@
+{
+  "chart_type": "bar",
+  "title": "Jährlicher Umsatz von Teckentrup im Segment JVA (2021–2024)",
+  "x_axis": {
+    "column": "Kalender[Jahr]",
+    "label": "Jahr"
+  },
+  "y_axis": {
+    "column": "[Umsatz SD/CO]",
+    "label": "Umsatz",
+    "aggregation": "sum"
+  },
+  "filters": {},
+  "group_by": "Kalender[Jahr]",
+  "sort_by": "x",
+  "annotations": "Umsatz stieg von 2021 auf 2022 deutlich an (Höchstwert), danach Rückgang in 2023 und 2024.",
+  "color_scheme": "blue"
+}

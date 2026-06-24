@@ -1,0 +1,208 @@
+{
+  "titlename": "Annual Revenue Trend (2021–2024) with Monthly Breakdown",
+  "charttype": "bar",
+  "xlabel": "Year",
+  "ylabel": "Total Revenue (in units)",
+  "y_ticks": [
+    0,
+    200000,
+    400000,
+    600000,
+    800000,
+    1000000
+  ],
+  "x_ticks": [
+    2021,
+    2022,
+    2023,
+    2024
+  ],
+  "x_tick_label": [
+    "2021",
+    "2022",
+    "2023",
+    "2024"
+  ],
+  "y_tick_label": [
+    "0",
+    "200K",
+    "400K",
+    "600K",
+    "800K",
+    "1M"
+  ],
+  "x_lim": [
+    2020.5,
+    2024.5
+  ],
+  "y_lim": [
+    0,
+    1100000
+  ],
+  "annotations": [
+    {
+      "text": "2022: Massive growth +700K",
+      "target_type": "point",
+      "data_id": 1.0,
+      "data_value": 933411.25,
+      "x_value": 2022.0,
+      "y_value": 933411.25,
+      "x_range": null,
+      "y_range": null,
+      "style": {
+        "color": "red",
+        "fontsize": 10,
+        "arrowprops": {
+          "arrowstyle": "->",
+          "color": "red"
+        }
+      }
+    },
+    {
+      "text": "2023: Sharp decline from 2022",
+      "target_type": "point",
+      "data_id": 2.0,
+      "data_value": 538577.0,
+      "x_value": 2023.0,
+      "y_value": 538577.0,
+      "x_range": null,
+      "y_range": null,
+      "style": {
+        "color": "orange",
+        "fontsize": 10,
+        "arrowprops": {
+          "arrowstyle": "->",
+          "color": "orange"
+        }
+      }
+    },
+    {
+      "text": "2024: Recovery trend",
+      "target_type": "point",
+      "data_id": 3.0,
+      "data_value": 265544.45,
+      "x_value": 2024.0,
+      "y_value": 265544.45,
+      "x_range": null,
+      "y_range": null,
+      "style": {
+        "color": "green",
+        "fontsize": 10,
+        "arrowprops": {
+          "arrowstyle": "->",
+          "color": "green"
+        }
+      }
+    },
+    {
+      "text": "June 2022: Highest revenue (242K)",
+      "target_type": "point",
+      "data_id": 1.0,
+      "data_value": 242067.31,
+      "x_value": 2022.0,
+      "y_value": 242067.31,
+      "x_range": null,
+      "y_range": null,
+      "style": {
+        "color": "purple",
+        "fontsize": 9,
+        "arrowprops": {
+          "arrowstyle": "->",
+          "color": "purple"
+        }
+      }
+    },
+    {
+      "text": "Dec 2023: Extremely low revenue (308.46)",
+      "target_type": "point",
+      "data_id": 2.0,
+      "data_value": 308.46,
+      "x_value": 2023.0,
+      "y_value": 308.46,
+      "x_range": null,
+      "y_range": null,
+      "style": {
+        "color": "brown",
+        "fontsize": 9,
+        "arrowprops": {
+          "arrowstyle": "->",
+          "color": "brown"
+        }
+      }
+    },
+    {
+      "text": "Dec 2024: Low revenue (1,682.98)",
+      "target_type": "point",
+      "data_id": 3.0,
+      "data_value": 1682.98,
+      "x_value": 2024.0,
+      "y_value": 1682.98,
+      "x_range": null,
+      "y_range": null,
+      "style": {
+        "color": "brown",
+        "fontsize": 9,
+        "arrowprops": {
+          "arrowstyle": "->",
+          "color": "brown"
+        }
+      }
+    },
+    {
+      "text": "Sep 2024: Zero revenue (likely missing data)",
+      "target_type": "point",
+      "data_id": 3.0,
+      "data_value": 0.0,
+      "x_value": 2024.0,
+      "y_value": 0.0,
+      "x_range": null,
+      "y_range": null,
+      "style": {
+        "color": "gray",
+        "fontsize": 9,
+        "arrowprops": {
+          "arrowstyle": "->",
+          "color": "gray"
+        }
+      }
+    }
+  ],
+  "data": [
+    {
+      "x_data": [
+        2021.0
+      ],
+      "y_data": [
+        144554.6
+      ],
+      "label": "2021 Total"
+    },
+    {
+      "x_data": [
+        2022.0
+      ],
+      "y_data": [
+        933411.25
+      ],
+      "label": "2022 Total"
+    },
+    {
+      "x_data": [
+        2023.0
+      ],
+      "y_data": [
+        538577.0
+      ],
+      "label": "2023 Total"
+    },
+    {
+      "x_data": [
+        2024.0
+      ],
+      "y_data": [
+        265544.45
+      ],
+      "label": "2024 Total"
+    }
+  ]
+}

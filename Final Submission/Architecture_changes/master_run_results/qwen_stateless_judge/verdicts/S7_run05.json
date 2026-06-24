@@ -1,0 +1,6 @@
+{
+  "verdict": "FAIL",
+  "score": 0.4,
+  "reasoning": "The chart configuration fails to answer the core part of the business question ('Wieviel Umsatz...' / 'How much revenue...'). The question asks for the total revenue in the years 2021-2024 and a detailed analysis based on *total earnings*. However, the provided chart visualizes *monthly* revenue trends over time (Line Chart). While it shows the data points, it does not explicitly display the annual totals required by the prompt. A user looking at this line chart would have to manually sum up the values for each year to find the answer, which is error-prone and inefficient. Furthermore, the annotations contain significant factual errors regarding the calculated percentages (e.g., claiming +449% growth from 2021 to 2022 when the actual growth is ~+85%, and -42% decline when it is ~-42% but the base calculation seems confused or mislabeled relative to the visual context). A bar chart showing yearly aggregates with labels would be the correct approach.",
+  "suggested_improvement": "Change the chart type to a Bar Chart where the X-axis represents the Years (2021, 2022, 2023, 2024) and the Y-axis represents the Summed Revenue for that year. Add data labels to the bars to clearly state the total revenue per year."
+}

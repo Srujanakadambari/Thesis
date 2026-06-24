@@ -1,0 +1,128 @@
+{
+  "C1": {
+    "runs": [
+      49.827,
+      44.414,
+      51.481,
+      44.109,
+      51.926
+    ],
+    "labels": [
+      "Cold",
+      "Warm 1",
+      "Warm 2",
+      "Warm 3",
+      "Warm 4"
+    ],
+    "charttypes": [
+      "line",
+      "line",
+      "line",
+      "line",
+      "line"
+    ]
+  },
+  "C2": {
+    "threshold": 0.75,
+    "results": [
+      {
+        "id": "Q1_seed",
+        "note": "Seed query \u2014 populates cache",
+        "expected": "MISS",
+        "actual": "MISS",
+        "correct": true,
+        "similarity": null,
+        "latency_s": 52.522,
+        "source": "LLM",
+        "fname": "cache_renders/c2_Q1_seed.png",
+        "rendered": true
+      },
+      {
+        "id": "Q2_similar_de",
+        "note": "Same intent, different German wording",
+        "expected": "HIT",
+        "actual": "HIT",
+        "correct": true,
+        "similarity": 0.911,
+        "latency_s": 2.001,
+        "source": "cache",
+        "fname": "cache_renders/c2_Q2_similar_de.png",
+        "rendered": true
+      },
+      {
+        "id": "Q3_similar_en",
+        "note": "Same intent, English",
+        "expected": "HIT",
+        "actual": "HIT",
+        "correct": true,
+        "similarity": 0.8388,
+        "latency_s": 1.006,
+        "source": "cache",
+        "fname": "cache_renders/c2_Q3_similar_en.png",
+        "rendered": true
+      },
+      {
+        "id": "Q4_similar_short",
+        "note": "Short paraphrase, German",
+        "expected": "HIT",
+        "actual": "HIT",
+        "correct": true,
+        "similarity": 0.8264,
+        "latency_s": 0.272,
+        "source": "cache",
+        "fname": "cache_renders/c2_Q4_similar_short.png",
+        "rendered": true
+      },
+      {
+        "id": "Q5_similar_verbose",
+        "note": "Verbose paraphrase, full JVA name",
+        "expected": "HIT",
+        "actual": "HIT",
+        "correct": true,
+        "similarity": 0.8138,
+        "latency_s": 0.191,
+        "source": "cache",
+        "fname": "cache_renders/c2_Q5_similar_verbose.png",
+        "rendered": true
+      },
+      {
+        "id": "Q6_diff_year",
+        "note": "Different year range \u2014 different scope",
+        "expected": "MISS",
+        "actual": "HIT",
+        "correct": false,
+        "similarity": 0.868,
+        "latency_s": 0.19,
+        "source": "cache",
+        "fname": "cache_renders/c2_Q6_diff_year.png",
+        "rendered": true
+      },
+      {
+        "id": "Q7_diff_segment",
+        "note": "Different segment \u2014 whole company",
+        "expected": "MISS",
+        "actual": "MISS",
+        "correct": true,
+        "similarity": 0.7492,
+        "latency_s": 29.779,
+        "source": "LLM",
+        "fname": "cache_renders/c2_Q7_diff_segment.png",
+        "rendered": false
+      },
+      {
+        "id": "Q8_diff_metric",
+        "note": "Different metric \u2014 orders not revenue",
+        "expected": "MISS",
+        "actual": "MISS",
+        "correct": true,
+        "similarity": 0.7044,
+        "latency_s": 14.268,
+        "source": "LLM",
+        "fname": "cache_renders/c2_Q8_diff_metric.png",
+        "rendered": false
+      }
+    ],
+    "hit_rate_pct": 62.5,
+    "accuracy_pct": 87.5
+  }
+}

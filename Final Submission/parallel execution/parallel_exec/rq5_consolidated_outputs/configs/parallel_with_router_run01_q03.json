@@ -1,0 +1,138 @@
+{
+  "titlename": "Total Annual Revenue (2021–2024)",
+  "charttype": "column",
+  "xlabel": "Year",
+  "ylabel": "Revenue (€)",
+  "y_ticks": [
+    0,
+    250000,
+    500000,
+    750000,
+    1000000,
+    1250000
+  ],
+  "x_ticks": [
+    2021,
+    2022,
+    2023,
+    2024
+  ],
+  "x_tick_label": [
+    "2021",
+    "2022",
+    "2023",
+    "2024"
+  ],
+  "y_tick_label": [
+    "0",
+    "250k",
+    "500k",
+    "750k",
+    "1M",
+    "1.25M"
+  ],
+  "x_lim": [
+    2020.5,
+    2024.5
+  ],
+  "y_lim": [
+    0,
+    1200000
+  ],
+  "annotations": [
+    {
+      "text": "€204,872",
+      "target_type": "point",
+      "data_id": 0.0,
+      "data_value": 204872.0,
+      "x_value": 2021.0,
+      "y_value": 204872.0,
+      "x_range": null,
+      "y_range": null,
+      "style": null
+    },
+    {
+      "text": "€1,124,838",
+      "target_type": "point",
+      "data_id": 1.0,
+      "data_value": 1124838.0,
+      "x_value": 2022.0,
+      "y_value": 1124838.0,
+      "x_range": null,
+      "y_range": null,
+      "style": null
+    },
+    {
+      "text": "€656,641",
+      "target_type": "point",
+      "data_id": 2.0,
+      "data_value": 656641.0,
+      "x_value": 2023.0,
+      "y_value": 656641.0,
+      "x_range": null,
+      "y_range": null,
+      "style": null
+    },
+    {
+      "text": "€324,925",
+      "target_type": "point",
+      "data_id": 3.0,
+      "data_value": 324925.0,
+      "x_value": 2024.0,
+      "y_value": 324925.0,
+      "x_range": null,
+      "y_range": null,
+      "style": null
+    },
+    {
+      "text": "+449%",
+      "target_type": "point",
+      "data_id": 1.0,
+      "data_value": 1124838.0,
+      "x_value": 2022.0,
+      "y_value": 1147335.0,
+      "x_range": null,
+      "y_range": null,
+      "style": null
+    },
+    {
+      "text": "-42%",
+      "target_type": "point",
+      "data_id": 2.0,
+      "data_value": 656641.0,
+      "x_value": 2023.0,
+      "y_value": 669775.0,
+      "x_range": null,
+      "y_range": null,
+      "style": null
+    },
+    {
+      "text": "-51%",
+      "target_type": "point",
+      "data_id": 3.0,
+      "data_value": 324925.0,
+      "x_value": 2024.0,
+      "y_value": 331424.0,
+      "x_range": null,
+      "y_range": null,
+      "style": null
+    }
+  ],
+  "data": [
+    {
+      "x_data": [
+        2021.0,
+        2022.0,
+        2023.0,
+        2024.0
+      ],
+      "y_data": [
+        204872.0,
+        1124838.0,
+        656641.0,
+        324925.0
+      ],
+      "label": "Total Revenue"
+    }
+  ]
+}

@@ -1,0 +1,76 @@
+{
+  "primary_model": "o4-mini",
+  "is_reasoning": true,
+  "total_runs": 28,
+  "exp1_single_run": {
+    "run_number": 1,
+    "experiment": "exp1_single_run",
+    "model": "o4-mini",
+    "total_latency_s": 67.883,
+    "router_latency_s": 14.465,
+    "analyze_latency_s": 19.946,
+    "extract_latency_s": 29.757,
+    "justify_latency_s": 3.689,
+    "render_latency_s": 0.044,
+    "router_prompt_tokens": 974,
+    "router_completion_tokens": 2207,
+    "router_reasoning_tokens": 1280,
+    "analyze_prompt_tokens": 960,
+    "analyze_completion_tokens": 3313,
+    "analyze_reasoning_tokens": 2816,
+    "extract_prompt_tokens": 1922,
+    "extract_completion_tokens": 5230,
+    "extract_reasoning_tokens": 4416,
+    "justify_prompt_tokens": 1425,
+    "justify_completion_tokens": 507,
+    "justify_reasoning_tokens": 448,
+    "total_input_tokens": 5281,
+    "total_output_tokens": 11257,
+    "total_reasoning_tokens": 8960,
+    "total_tokens": 16538,
+    "render_success": true,
+    "chart_type": "line",
+    "error_message": ""
+  },
+  "exp2_stage_avgs": {
+    "router": 15.672,
+    "analyze": 16.154,
+    "extract": 14.627,
+    "justify": 3.528,
+    "total": 49.996
+  },
+  "exp3_model_comparison": {
+    "o4-mini": {
+      "avg_total_s": 49.493,
+      "std_total_s": 2.961,
+      "avg_reasoning_tokens": 5312
+    },
+    "gpt-4o-mini": {
+      "avg_total_s": 26.014,
+      "std_total_s": 17.435,
+      "avg_reasoning_tokens": 0
+    }
+  },
+  "exp4_prompt_scaling": {
+    "small  (~1yr,  12 rows)": {
+      "approx_tokens": 287,
+      "avg_s": 33.138
+    },
+    "medium (~2yr,  24 rows)": {
+      "approx_tokens": 491,
+      "avg_s": 36.666
+    },
+    "large  (full,  48 rows)": {
+      "approx_tokens": 899,
+      "avg_s": 34.577
+    }
+  },
+  "exp5_variance": {
+    "mean_s": 79.842,
+    "std_s": 97.659,
+    "cv_pct": 122.3,
+    "reasoning_tok_min": 4160,
+    "reasoning_tok_max": 7296,
+    "reasoning_tok_mean": 5644.8
+  }
+}

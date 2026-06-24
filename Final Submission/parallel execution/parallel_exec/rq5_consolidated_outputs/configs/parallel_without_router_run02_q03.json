@@ -1,0 +1,121 @@
+{
+  "titlename": "Jährlicher Gesamtumsatz (2021–2024)",
+  "charttype": "column",
+  "xlabel": "Jahr",
+  "ylabel": "Gesamtumsatz (EUR)",
+  "y_ticks": [
+    0,
+    250000,
+    500000,
+    750000,
+    1000000,
+    1250000
+  ],
+  "x_ticks": [
+    2021,
+    2022,
+    2023,
+    2024
+  ],
+  "x_tick_label": [
+    "2021",
+    "2022",
+    "2023",
+    "2024"
+  ],
+  "y_tick_label": [
+    "0",
+    "250 k",
+    "500 k",
+    "750 k",
+    "1 M",
+    "1.25 M"
+  ],
+  "x_lim": [
+    2020.5,
+    2024.5
+  ],
+  "y_lim": [
+    0,
+    1250000
+  ],
+  "annotations": [
+    {
+      "text": "204 872 €",
+      "target_type": "point",
+      "data_id": 0.0,
+      "data_value": 204872.0,
+      "x_value": 2021.0,
+      "y_value": 204872.0,
+      "x_range": null,
+      "y_range": null,
+      "style": null
+    },
+    {
+      "text": "1 124 838 €",
+      "target_type": "point",
+      "data_id": 1.0,
+      "data_value": 1124838.0,
+      "x_value": 2022.0,
+      "y_value": 1124838.0,
+      "x_range": null,
+      "y_range": null,
+      "style": {
+        "color": "orange"
+      }
+    },
+    {
+      "text": "656 641 €",
+      "target_type": "point",
+      "data_id": 2.0,
+      "data_value": 656641.0,
+      "x_value": 2023.0,
+      "y_value": 656641.0,
+      "x_range": null,
+      "y_range": null,
+      "style": null
+    },
+    {
+      "text": "324 925 €",
+      "target_type": "point",
+      "data_id": 3.0,
+      "data_value": 324925.0,
+      "x_value": 2024.0,
+      "y_value": 324925.0,
+      "x_range": null,
+      "y_range": null,
+      "style": null
+    },
+    {
+      "text": "Durchschnitt: 577 819 €",
+      "target_type": "axis",
+      "data_id": null,
+      "data_value": null,
+      "x_value": null,
+      "y_value": 577819.0,
+      "x_range": null,
+      "y_range": null,
+      "style": {
+        "linestyle": "--",
+        "color": "red"
+      }
+    }
+  ],
+  "data": [
+    {
+      "x_data": [
+        2021.0,
+        2022.0,
+        2023.0,
+        2024.0
+      ],
+      "y_data": [
+        204872.0,
+        1124838.0,
+        656641.0,
+        324925.0
+      ],
+      "label": "Jährlicher Umsatz"
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+{
+  "verdict": "FAIL",
+  "score": 0.4,
+  "reasoning": "The chart fails to answer the core part of the business question ('Wieviel Umsatz...' - How much revenue...) because it displays monthly data points rather than the requested annual totals. While a line chart showing monthly trends can support an analysis, it does not directly provide the specific yearly figures needed to answer 'how much revenue'. Furthermore, the annotations are severely misleading and cluttered; they attempt to list all 12 monthly values as text labels attached to single data points (e.g., attaching the entire string of 2021's months to the January point), which results in unreadable tooltips or overlapping text that obscures the view. A bar chart with aggregated yearly sums would be far more appropriate.",
+  "suggested_improvement": "Aggregate the data by year to calculate total revenue for 2021, 2022, 2023, and 2024, and display these four totals using a bar chart. This directly answers the quantitative question."
+}

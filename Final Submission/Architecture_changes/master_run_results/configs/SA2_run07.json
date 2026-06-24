@@ -1,0 +1,265 @@
+{
+  "titlename": "Detaillierte Analyse der JVA-Segment-Ums\u00e4tze 2021\u20132024",
+  "charttype": "line",
+  "xlabel": "Monat",
+  "ylabel": "Umsatz (in Euro)",
+  "y_ticks": [
+    0,
+    30000,
+    60000,
+    90000,
+    120000,
+    150000,
+    180000,
+    210000,
+    240000,
+    270000,
+    300000,
+    330000,
+    360000
+  ],
+  "x_ticks": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11
+  ],
+  "x_tick_label": [
+    "Jan",
+    "Feb",
+    "Mrz",
+    "Apr",
+    "Mai",
+    "Jun",
+    "Jul",
+    "Aug",
+    "Sep",
+    "Okt",
+    "Nov",
+    "Dez"
+  ],
+  "y_tick_label": [
+    "0\u20ac",
+    "30k\u20ac",
+    "60k\u20ac",
+    "90k\u20ac",
+    "120k\u20ac",
+    "150k\u20ac",
+    "180k\u20ac",
+    "210k\u20ac",
+    "240k\u20ac",
+    "270k\u20ac",
+    "300k\u20ac",
+    "330k\u20ac"
+  ],
+  "x_lim": [
+    0,
+    11
+  ],
+  "y_lim": [
+    0,
+    360000
+  ],
+  "annotations": [
+    {
+      "text": "2022 ist Ausrei\u00dferjahr mit >1 Mio. \u20ac Umsatz",
+      "target_type": "point",
+      "data_id": 45.0,
+      "data_value": 1124838.11,
+      "x_value": null,
+      "y_value": null,
+      "x_range": null,
+      "y_range": null,
+      "style": null
+    },
+    {
+      "text": "2024 nur 60 % von 2023",
+      "target_type": "point",
+      "data_id": 57.0,
+      "data_value": 324925.38,
+      "x_value": null,
+      "y_value": null,
+      "x_range": null,
+      "y_range": null,
+      "style": null
+    },
+    {
+      "text": "Null-Umsatz in Sep 2024",
+      "target_type": "point",
+      "data_id": 68.0,
+      "data_value": 0.0,
+      "x_value": null,
+      "y_value": null,
+      "x_range": null,
+      "y_range": null,
+      "style": null
+    },
+    {
+      "text": "Peak in Jun 2022 (242067 \u20ac)",
+      "target_type": "point",
+      "data_id": 33.0,
+      "data_value": 242067.0,
+      "x_value": null,
+      "y_value": null,
+      "x_range": null,
+      "y_range": null,
+      "style": null
+    },
+    {
+      "text": "Peak in August 2022 (144962.81)",
+      "target_type": "point",
+      "data_id": 43.0,
+      "data_value": 144962.81,
+      "x_value": null,
+      "y_value": null,
+      "x_range": null,
+      "y_range": null,
+      "style": null
+    },
+    {
+      "text": "Peak in April 2023 (136944.76)",
+      "target_type": "point",
+      "data_id": 57.0,
+      "data_value": 136944.76,
+      "x_value": null,
+      "y_value": null,
+      "x_range": null,
+      "y_range": null,
+      "style": null
+    }
+  ],
+  "data": [
+    {
+      "x_data": [
+        0.0,
+        1.0,
+        2.0,
+        3.0,
+        4.0,
+        5.0,
+        6.0,
+        7.0,
+        8.0,
+        9.0,
+        10.0,
+        11.0
+      ],
+      "y_data": [
+        12308.1,
+        11619.17,
+        6366.93,
+        30264.05,
+        4013.68,
+        12705.9,
+        4399.77,
+        9660.99,
+        8191.73,
+        31067.25,
+        43170.69,
+        31104.06
+      ],
+      "label": "2021"
+    },
+    {
+      "x_data": [
+        0.0,
+        1.0,
+        2.0,
+        3.0,
+        4.0,
+        5.0,
+        6.0,
+        7.0,
+        8.0,
+        9.0,
+        10.0,
+        11.0
+      ],
+      "y_data": [
+        9099.13,
+        7901.51,
+        43886.0,
+        8222.0,
+        79558.31,
+        242067.31,
+        49897.36,
+        114949.62,
+        142962.81,
+        126704.83,
+        191821.13,
+        107768.1
+      ],
+      "label": "2022"
+    },
+    {
+      "x_data": [
+        0.0,
+        1.0,
+        2.0,
+        3.0,
+        4.0,
+        5.0,
+        6.0,
+        7.0,
+        8.0,
+        9.0,
+        10.0,
+        11.0
+      ],
+      "y_data": [
+        39018.99,
+        11985.62,
+        22982.51,
+        136944.76,
+        59338.62,
+        93584.47,
+        56252.4,
+        94834.47,
+        55172.35,
+        4556.49,
+        81661.45,
+        308.46
+      ],
+      "label": "2023"
+    },
+    {
+      "x_data": [
+        0.0,
+        1.0,
+        2.0,
+        3.0,
+        4.0,
+        5.0,
+        6.0,
+        7.0,
+        8.0,
+        9.0,
+        10.0,
+        11.0
+      ],
+      "y_data": [
+        17836.38,
+        24220.52,
+        5705.99,
+        4960.46,
+        59299.74,
+        22302.27,
+        2534.01,
+        94434.55,
+        0.0,
+        2171.52,
+        89776.96,
+        1682.98
+      ],
+      "label": "2024"
+    }
+  ]
+}

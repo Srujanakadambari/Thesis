@@ -1,0 +1,6 @@
+{
+  "verdict": "FAIL",
+  "score": 0.4,
+  "reasoning": "The chart fails to answer the core part of the business question: 'Wieviel Umsatz...' (How much revenue...). The question asks for the total earnings/revenue for the years 2021-2024. A line chart showing monthly fluctuations is useful for trend analysis but does not directly provide the annual totals required by the prompt. Furthermore, plotting four separate lines on a single X-axis representing months (1-12) creates significant visual clutter and overlap, making it difficult to compare the scale of revenue across different years (e.g., comparing Jan 2021 vs Jan 2022). A bar chart with aggregated yearly sums or a grouped bar chart would be far more effective for answering 'how much' and allowing comparison between years.",
+  "suggested_improvement": "Aggregate the data by year and use a column/bar chart to display the total revenue per year (2021, 2022, 2023, 2024), which directly answers the question about the amount of revenue."
+}

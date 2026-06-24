@@ -1,0 +1,85 @@
+{
+  "titlename": "Umsatz Analysis by Year and Month",
+  "charttype": "bar",
+  "xlabel": "Year",
+  "ylabel": "Umsatz in SD/CO",
+  "y_ticks": [
+    0,
+    50000,
+    100000,
+    150000,
+    200000,
+    250000,
+    300000
+  ],
+  "x_ticks": [
+    2021,
+    2022,
+    2023,
+    2024
+  ],
+  "x_tick_label": [
+    "2021",
+    "2022",
+    "2023",
+    "2024"
+  ],
+  "y_tick_label": [
+    "0",
+    "50000",
+    "100000",
+    "150000",
+    "200000",
+    "250000",
+    "300000"
+  ],
+  "x_lim": [
+    2020.5,
+    2024.5
+  ],
+  "y_lim": [
+    0,
+    300000
+  ],
+  "annotations": [
+    {
+      "text": "Highest Revenue in June 2022: 242067.31",
+      "target_type": "point",
+      "data_id": 19.0,
+      "data_value": 242067.31,
+      "x_value": null,
+      "y_value": null,
+      "x_range": null,
+      "y_range": null,
+      "style": null
+    },
+    {
+      "text": "Lowest Revenue in December 2023: 308.46",
+      "target_type": "point",
+      "data_id": 26.0,
+      "data_value": 308.46,
+      "x_value": null,
+      "y_value": null,
+      "x_range": null,
+      "y_range": null,
+      "style": null
+    }
+  ],
+  "data": [
+    {
+      "x_data": [
+        2021.0,
+        2022.0,
+        2023.0,
+        2024.0
+      ],
+      "y_data": [
+        118898.1,
+        918637.57,
+        532608.08,
+        193151.07
+      ],
+      "label": "Umsatz"
+    }
+  ]
+}

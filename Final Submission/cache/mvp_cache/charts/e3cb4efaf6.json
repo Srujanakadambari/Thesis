@@ -1,0 +1,95 @@
+{
+  "titlename": "Total Revenue Comparison (2021-2024)",
+  "charttype": "bar",
+  "xlabel": "Year",
+  "ylabel": "Total Revenue (SD/CO)",
+  "y_ticks": [
+    0,
+    50000,
+    100000,
+    150000,
+    200000,
+    250000,
+    300000
+  ],
+  "x_ticks": [
+    2021,
+    2022,
+    2023,
+    2024
+  ],
+  "x_tick_label": [
+    "2021",
+    "2022",
+    "2023",
+    "2024"
+  ],
+  "y_tick_label": [
+    "0",
+    "50k",
+    "100k",
+    "150k",
+    "200k",
+    "250k",
+    "300k"
+  ],
+  "x_lim": [
+    2021,
+    2024
+  ],
+  "y_lim": [
+    0,
+    300000
+  ],
+  "annotations": [
+    {
+      "text": "Revenue increased significantly in 2022 and dropped in 2023 and 2024",
+      "target_type": "chart",
+      "data_id": null,
+      "data_value": null,
+      "x_value": null,
+      "y_value": null,
+      "x_range": null,
+      "y_range": null,
+      "style": null
+    }
+  ],
+  "data": [
+    {
+      "x_data": [
+        2021.0
+      ],
+      "y_data": [
+        242481.32
+      ],
+      "label": "2021"
+    },
+    {
+      "x_data": [
+        2022.0
+      ],
+      "y_data": [
+        1435343.18
+      ],
+      "label": "2022"
+    },
+    {
+      "x_data": [
+        2023.0
+      ],
+      "y_data": [
+        675030.11
+      ],
+      "label": "2023"
+    },
+    {
+      "x_data": [
+        2024.0
+      ],
+      "y_data": [
+        383954.38
+      ],
+      "label": "2024"
+    }
+  ]
+}

@@ -1,0 +1,189 @@
+{
+  "titlename": "Annual Revenue Comparison (2021 - 2024)",
+  "charttype": "bar",
+  "xlabel": "Year",
+  "ylabel": "Total Revenue (EUR)",
+  "y_ticks": [
+    0,
+    200000,
+    400000,
+    600000,
+    800000,
+    1000000,
+    1200000
+  ],
+  "x_ticks": [
+    0,
+    1,
+    2,
+    3
+  ],
+  "x_tick_label": [
+    "2021",
+    "2022",
+    "2023",
+    "2024"
+  ],
+  "y_tick_label": [
+    "0",
+    "200k",
+    "400k",
+    "600k",
+    "800k",
+    "1M",
+    "1.2M"
+  ],
+  "x_lim": [
+    -0.5,
+    3.5
+  ],
+  "y_lim": [
+    0,
+    1200000
+  ],
+  "annotations": [
+    {
+      "text": "Annual Total: 204,872.32",
+      "target_type": "point",
+      "data_id": 0.0,
+      "data_value": 204872.32,
+      "x_value": 0.0,
+      "y_value": 204872.32,
+      "x_range": null,
+      "y_range": null,
+      "style": {
+        "color": "black",
+        "fontSize": 10,
+        "textAlign": "center"
+      }
+    },
+    {
+      "text": "Annual Total: 1,124,838.11",
+      "target_type": "point",
+      "data_id": 1.0,
+      "data_value": 1124838.11,
+      "x_value": 1.0,
+      "y_value": 1124838.11,
+      "x_range": null,
+      "y_range": null,
+      "style": {
+        "color": "black",
+        "fontSize": 10,
+        "textAlign": "center"
+      }
+    },
+    {
+      "text": "Annual Total: 656,640.59",
+      "target_type": "point",
+      "data_id": 2.0,
+      "data_value": 656640.59,
+      "x_value": 2.0,
+      "y_value": 656640.59,
+      "x_range": null,
+      "y_range": null,
+      "style": {
+        "color": "black",
+        "fontSize": 10,
+        "textAlign": "center"
+      }
+    },
+    {
+      "text": "Annual Total: 324,925.38*",
+      "target_type": "point",
+      "data_id": 3.0,
+      "data_value": 324925.38,
+      "x_value": 3.0,
+      "y_value": 324925.38,
+      "x_range": null,
+      "y_range": null,
+      "style": {
+        "color": "black",
+        "fontSize": 10,
+        "textAlign": "center"
+      }
+    },
+    {
+      "text": "2022 Peak: €242,067",
+      "target_type": "point",
+      "data_id": 9.0,
+      "data_value": 242067.31,
+      "x_value": 1.0,
+      "y_value": 242067.31,
+      "x_range": null,
+      "y_range": null,
+      "style": {
+        "color": "red",
+        "fontSize": 10,
+        "textAlign": "center"
+      }
+    },
+    {
+      "text": "2023 Peak: €139,944",
+      "target_type": "point",
+      "data_id": 29.0,
+      "data_value": 136944.76,
+      "x_value": 2.0,
+      "y_value": 136944.76,
+      "x_range": null,
+      "y_range": null,
+      "style": {
+        "color": "blue",
+        "fontSize": 10,
+        "textAlign": "center"
+      }
+    },
+    {
+      "text": "Low in Sep 2024: €0",
+      "target_type": "point",
+      "data_id": 35.0,
+      "data_value": 0.0,
+      "x_value": 3.0,
+      "y_value": 0.0,
+      "x_range": null,
+      "y_range": null,
+      "style": {
+        "color": "orange",
+        "fontSize": 10,
+        "textAlign": "center"
+      }
+    }
+  ],
+  "data": [
+    {
+      "x_data": [
+        0.0
+      ],
+      "y_data": [
+        204872.32
+      ],
+      "label": "Total Revenue"
+    },
+    {
+      "x_data": [
+        1.0
+      ],
+      "y_data": [
+        1124838.11
+      ],
+      "label": "Total Revenue"
+    },
+    {
+      "x_data": [
+        2.0
+      ],
+      "y_data": [
+        656640.59
+      ],
+      "label": "Total Revenue"
+    },
+    {
+      "x_data": [
+        3.0
+      ],
+      "y_data": [
+        324925.38
+      ],
+      "label": "Total Revenue"
+    }
+  ]
+}

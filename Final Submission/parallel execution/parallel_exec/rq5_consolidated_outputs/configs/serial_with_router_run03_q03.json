@@ -1,0 +1,81 @@
+{
+  "titlename": "Annual Total Revenue by Year (2021–2024)",
+  "charttype": "bar",
+  "xlabel": "Year",
+  "ylabel": "Total Revenue (€)",
+  "y_ticks": [
+    0,
+    300000,
+    600000,
+    900000,
+    1200000
+  ],
+  "x_ticks": [
+    0,
+    1,
+    2,
+    3
+  ],
+  "x_tick_label": [
+    "2021",
+    "2022",
+    "2023",
+    "2024"
+  ],
+  "y_tick_label": [
+    "0",
+    "300k",
+    "600k",
+    "900k",
+    "1.2M"
+  ],
+  "x_lim": [
+    -0.5,
+    3.5
+  ],
+  "y_lim": [
+    0,
+    1200000
+  ],
+  "annotations": [
+    {
+      "text": "Peak Year",
+      "target_type": "point",
+      "data_id": 1.0,
+      "data_value": 1124838.11,
+      "x_value": 1.0,
+      "y_value": 1124838.11,
+      "x_range": null,
+      "y_range": null,
+      "style": null
+    },
+    {
+      "text": "Average: €578,069",
+      "target_type": "axis",
+      "data_id": null,
+      "data_value": null,
+      "x_value": null,
+      "y_value": 578069.1,
+      "x_range": null,
+      "y_range": null,
+      "style": null
+    }
+  ],
+  "data": [
+    {
+      "x_data": [
+        0.0,
+        1.0,
+        2.0,
+        3.0
+      ],
+      "y_data": [
+        204872.32,
+        1124838.11,
+        656640.59,
+        324925.38
+      ],
+      "label": "Total Revenue"
+    }
+  ]
+}

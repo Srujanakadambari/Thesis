@@ -1,0 +1,145 @@
+{
+  "titlename": "Year-over-Year Revenue Growth (2021-2024)",
+  "charttype": "line",
+  "xlabel": "Year",
+  "ylabel": "Total Revenue (EUR)",
+  "y_ticks": [
+    0,
+    200000,
+    400000,
+    600000,
+    800000,
+    1000000
+  ],
+  "x_ticks": [
+    2021,
+    2022,
+    2023,
+    2024
+  ],
+  "x_tick_label": [
+    "2021",
+    "2022",
+    "2023",
+    "2024"
+  ],
+  "y_tick_label": [
+    "0",
+    "200K",
+    "400K",
+    "600K",
+    "800K",
+    "1M"
+  ],
+  "x_lim": [
+    2020.5,
+    2024.5
+  ],
+  "y_lim": [
+    0,
+    1100000
+  ],
+  "annotations": [
+    {
+      "text": "377.4% growth in 2022 vs 2021",
+      "target_type": "point",
+      "data_id": 1.0,
+      "data_value": 1025848.11,
+      "x_value": 2022.0,
+      "y_value": 1025848.11,
+      "x_range": null,
+      "y_range": null,
+      "style": {
+        "color": "green",
+        "fontsize": 10,
+        "arrowprops": {
+          "arrowstyle": "->",
+          "color": "green"
+        }
+      }
+    },
+    {
+      "text": "-38.8% decline in 2023 vs 2022",
+      "target_type": "point",
+      "data_id": 2.0,
+      "data_value": 627625.59,
+      "x_value": 2023.0,
+      "y_value": 627625.59,
+      "x_range": null,
+      "y_range": null,
+      "style": {
+        "color": "red",
+        "fontsize": 10,
+        "arrowprops": {
+          "arrowstyle": "->",
+          "color": "red"
+        }
+      }
+    },
+    {
+      "text": "-46.2% decline in 2024 vs 2023",
+      "target_type": "point",
+      "data_id": 3.0,
+      "data_value": 337885.4,
+      "x_value": 2024.0,
+      "y_value": 337885.4,
+      "x_range": null,
+      "y_range": null,
+      "style": {
+        "color": "red",
+        "fontsize": 10,
+        "arrowprops": {
+          "arrowstyle": "->",
+          "color": "red"
+        }
+      }
+    },
+    {
+      "text": "Zero revenue in Sep 2024",
+      "target_type": "point",
+      "data_id": 3.0,
+      "data_value": 0.0,
+      "x_value": 2024.0,
+      "y_value": 0.0,
+      "x_range": null,
+      "y_range": null,
+      "style": {
+        "color": "black",
+        "fontsize": 9,
+        "weight": "bold"
+      }
+    },
+    {
+      "text": "Dec 2023: Only 308.46 EUR",
+      "target_type": "point",
+      "data_id": 2.0,
+      "data_value": 308.46,
+      "x_value": 2023.0,
+      "y_value": 308.46,
+      "x_range": null,
+      "y_range": null,
+      "style": {
+        "color": "black",
+        "fontsize": 9,
+        "weight": "bold"
+      }
+    }
+  ],
+  "data": [
+    {
+      "x_data": [
+        2021.0,
+        2022.0,
+        2023.0,
+        2024.0
+      ],
+      "y_data": [
+        214875.32,
+        1025848.11,
+        627625.59,
+        337885.4
+      ],
+      "label": "Annual Revenue"
+    }
+  ]
+}

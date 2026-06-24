@@ -1,0 +1,123 @@
+{
+  "titlename": "2022 Monthly Revenue Trend (SD/CO)",
+  "charttype": "line",
+  "xlabel": "Monat",
+  "ylabel": "Umsatz (€)",
+  "y_ticks": [
+    0,
+    50000,
+    100000,
+    150000,
+    200000,
+    250000
+  ],
+  "x_ticks": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12
+  ],
+  "x_tick_label": [
+    "Jan",
+    "Feb",
+    "Mrz",
+    "Apr",
+    "Mai",
+    "Jun",
+    "Jul",
+    "Aug",
+    "Sep",
+    "Okt",
+    "Nov",
+    "Dez"
+  ],
+  "y_tick_label": [
+    "0",
+    "50k",
+    "100k",
+    "150k",
+    "200k",
+    "250k"
+  ],
+  "x_lim": [
+    1,
+    12
+  ],
+  "y_lim": [
+    0,
+    250000
+  ],
+  "annotations": [
+    {
+      "text": "Yearly peak (Jun)",
+      "target_type": "point",
+      "data_id": 5.0,
+      "data_value": 242067.31,
+      "x_value": 6.0,
+      "y_value": 242067.31,
+      "x_range": null,
+      "y_range": null,
+      "style": {
+        "color": "red",
+        "arrow": true,
+        "fontsize": 10
+      }
+    },
+    {
+      "text": "Second peak (Nov)",
+      "target_type": "point",
+      "data_id": 10.0,
+      "data_value": 191821.13,
+      "x_value": 11.0,
+      "y_value": 191821.13,
+      "x_range": null,
+      "y_range": null,
+      "style": {
+        "color": "orange",
+        "arrow": true,
+        "fontsize": 10
+      }
+    }
+  ],
+  "data": [
+    {
+      "x_data": [
+        1.0,
+        2.0,
+        3.0,
+        4.0,
+        5.0,
+        6.0,
+        7.0,
+        8.0,
+        9.0,
+        10.0,
+        11.0,
+        12.0
+      ],
+      "y_data": [
+        9099.13,
+        7901.51,
+        43886.0,
+        8222.0,
+        79558.31,
+        242067.31,
+        49897.36,
+        114949.62,
+        142962.81,
+        126704.83,
+        191821.13,
+        107768.1
+      ],
+      "label": "2022"
+    }
+  ]
+}

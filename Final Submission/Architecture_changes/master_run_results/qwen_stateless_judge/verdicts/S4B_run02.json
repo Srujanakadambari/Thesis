@@ -1,0 +1,6 @@
+{
+  "verdict": "FAIL",
+  "score": 0.3,
+  "reasoning": "The chart configuration fails to answer the business question for two main reasons. First, the question explicitly asks for 'total earnings' (Umsatz) per year ('in den Jahren 2021 bis 2024'), implying an annual aggregation. The provided chart displays monthly data points for each year separately on a stacked bar chart with months on the x-axis. This makes it impossible to directly read or compare the total annual revenue without performing mental arithmetic across all 12 bars for each year. A simple bar chart with years on the X-axis would be appropriate. Second, and more critically, there is a severe scale distortion due to the use of a stacked bar chart. In June 2022, the revenue was ~242k, which alone exceeds the Y-axis limit of 250k set in the config (`y_lim`). When stacked with other years' values for that month, the total height will far exceed the axis limits, causing significant clipping and making the visualization unreadable and misleading.",
+  "suggested_improvement": "Change the chart type to a standard Bar Chart where the X-axis represents the Years (2021-2024) and the Y-axis represents the Summed Revenue ([Umsatz SD/CO]) for that year. Aggregate the monthly data by summing `[Umsatz SD/CO]` for each `Kalender[Jahr]` before plotting."
+}

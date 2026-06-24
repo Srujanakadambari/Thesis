@@ -1,0 +1,107 @@
+{
+  "titlename": "Jahresumsatz Teckentrup Segment JVA (2021-2024)",
+  "charttype": "bar",
+  "xlabel": "Jahr",
+  "ylabel": "Umsatz (EUR)",
+  "y_ticks": [
+    0,
+    200000,
+    400000,
+    600000,
+    800000,
+    1000000,
+    1200000
+  ],
+  "x_ticks": [
+    2021,
+    2022,
+    2023,
+    2024
+  ],
+  "x_tick_label": [
+    "2021",
+    "2022",
+    "2023",
+    "2024"
+  ],
+  "y_tick_label": [
+    "0",
+    "200k",
+    "400k",
+    "600k",
+    "800k",
+    "1M",
+    "1.2M"
+  ],
+  "x_lim": [
+    2020.5,
+    2024.5
+  ],
+  "y_lim": [
+    0,
+    1250000
+  ],
+  "annotations": [
+    {
+      "text": "204.872,32 \u20ac",
+      "target_type": "point",
+      "data_id": 0.0,
+      "data_value": 204872.32,
+      "x_value": null,
+      "y_value": null,
+      "x_range": null,
+      "y_range": null,
+      "style": null
+    },
+    {
+      "text": "1.124.838,11 \u20ac",
+      "target_type": "point",
+      "data_id": 1.0,
+      "data_value": 1124838.11,
+      "x_value": null,
+      "y_value": null,
+      "x_range": null,
+      "y_range": null,
+      "style": null
+    },
+    {
+      "text": "656.640,59 \u20ac",
+      "target_type": "point",
+      "data_id": 2.0,
+      "data_value": 656640.59,
+      "x_value": null,
+      "y_value": null,
+      "x_range": null,
+      "y_range": null,
+      "style": null
+    },
+    {
+      "text": "324.925,38 \u20ac",
+      "target_type": "point",
+      "data_id": 3.0,
+      "data_value": 324925.38,
+      "x_value": null,
+      "y_value": null,
+      "x_range": null,
+      "y_range": null,
+      "style": null
+    }
+  ],
+  "data": [
+    {
+      "x_data": [
+        2021.0,
+        2022.0,
+        2023.0,
+        2024.0
+      ],
+      "y_data": [
+        204872.32,
+        1124838.11,
+        656640.59,
+        324925.38
+      ],
+      "label": "Umsatz JVA"
+    }
+  ]
+}

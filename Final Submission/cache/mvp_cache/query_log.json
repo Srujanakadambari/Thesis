@@ -1,0 +1,891 @@
+[
+  {
+    "timestamp": "2026-05-21T22:35:04.551600",
+    "query": "what is the comprehensive earnings from 2021 to 2024 ",
+    "cache_hit": false,
+    "similarity": 0.0,
+    "latency_s": 6.547,
+    "verdict": "\u2014",
+    "model": "o4-mini"
+  },
+  {
+    "timestamp": "2026-05-21T22:35:52.005725",
+    "query": "Wieviel Umsatz hatte Teckentrup in den Jahren 2021 bis 2024 im Segment JVA? Provide a detailed analysis of the data based of total earnings and provide a comprehensive visualization supporting your analysis.\"",
+    "cache_hit": false,
+    "similarity": 0.0,
+    "latency_s": 6.865,
+    "verdict": "\u2014",
+    "model": "o4-mini"
+  },
+  {
+    "timestamp": "2026-05-21T22:37:41.599860",
+    "query": "Wieviel Umsatz hatte Teckentrup in den Jahren 2021 bis 2024 im Segment JVA? Provide a detailed analysis of the data based of total earnings and provide a comprehensive visualization supporting your analysis.\"",
+    "cache_hit": false,
+    "similarity": 0.0,
+    "latency_s": 9.165,
+    "verdict": "\u2014",
+    "model": "o4-mini"
+  },
+  {
+    "timestamp": "2026-05-21T23:07:18.588505",
+    "query": "Wieviel Umsatz hatte Teckentrup in den Jahren 2021 bis 2024 ",
+    "scenario": "A0_baseline",
+    "cache_hit": false,
+    "similarity": 0.0,
+    "latency_s": 5.709,
+    "verdict": "\u2014",
+    "model": "o4-mini"
+  },
+  {
+    "timestamp": "2026-05-21T23:07:49.277467",
+    "query": "Wieviel Umsatz hatte Teckentrup in den Jahren 2021 bis 2024 ",
+    "scenario": "A1_agent_serial",
+    "cache_hit": true,
+    "similarity": 1.0,
+    "latency_s": 0.078,
+    "verdict": "\u2014",
+    "model": "o4-mini"
+  },
+  {
+    "timestamp": "2026-05-21T23:08:02.927313",
+    "query": "Wieviel Umsatz hatte Teckentrup in den Jahren 2021 bis 2024 ",
+    "scenario": "A1_agent_serial",
+    "cache_hit": true,
+    "similarity": 0.9634,
+    "latency_s": 0.038,
+    "verdict": "\u2014",
+    "model": "o4-mini"
+  },
+  {
+    "timestamp": "2026-05-21T23:08:10.895398",
+    "query": "Wieviel Umsatz hatte Teckentrup in den Jahren 2021 bis 2024 ",
+    "scenario": "A1_agent_serial",
+    "cache_hit": true,
+    "similarity": 0.9634,
+    "latency_s": 0.053,
+    "verdict": "\u2014",
+    "model": "o4-mini"
+  },
+  {
+    "timestamp": "2026-05-21T23:08:10.923055",
+    "query": "Wieviel Umsatz hatte Teckentrup in den Jahren 2021 bis 2024 ",
+    "scenario": "A0_baseline",
+    "cache_hit": true,
+    "similarity": 0.9634,
+    "latency_s": 0.025,
+    "verdict": "\u2014",
+    "model": "o4-mini"
+  },
+  {
+    "timestamp": "2026-05-21T23:08:21.060717",
+    "query": "Wieviel Umsatz hatte Teckentrup in den Jahren 2021 bis 2024 ",
+    "scenario": "A0_baseline",
+    "cache_hit": true,
+    "similarity": 0.9634,
+    "latency_s": 0.028,
+    "verdict": "\u2014",
+    "model": "o4-mini"
+  },
+  {
+    "timestamp": "2026-05-21T23:08:31.609871",
+    "query": "Wieviel Umsatz hatte Teckentrup in den Jahren 2021 bis 2024 ",
+    "scenario": "A0_baseline",
+    "cache_hit": true,
+    "similarity": 0.9634,
+    "latency_s": 0.041,
+    "verdict": "\u2014",
+    "model": "o4-mini"
+  },
+  {
+    "ts": "2026-05-21T23:24",
+    "query": "Wieviel Umsatz hatte Teckentrup in den Jahren 2021 bis ",
+    "scenario": "S0",
+    "cache_hit": true,
+    "similarity": 1.0,
+    "latency_s": 0.22,
+    "verdict": "\u2014"
+  },
+  {
+    "ts": "2026-05-21T23:24",
+    "query": "Wieviel Umsatz hatte Teckentrup in den Jahren 2021 bis ",
+    "scenario": "S9",
+    "cache_hit": true,
+    "similarity": 0.938,
+    "latency_s": 0.086,
+    "verdict": "\u2014"
+  },
+  {
+    "ts": "2026-05-21T23:25",
+    "query": "Wieviel Umsatz hatte Teckentrup in den Jahren 2021 bis ",
+    "scenario": "S9",
+    "cache_hit": false,
+    "similarity": 0.0,
+    "latency_s": 9.344,
+    "verdict": "ERROR"
+  },
+  {
+    "ts": "2026-05-21T23:25",
+    "query": "Wieviel Umsatz hatte Teckentrup in den Jahren 2021 bis ",
+    "scenario": "S0",
+    "cache_hit": false,
+    "similarity": 0.0,
+    "latency_s": 5.888,
+    "verdict": "\u2014"
+  },
+  {
+    "ts": "2026-05-21T23:25",
+    "query": "Wieviel Umsatz hatte Teckentrup in den Jahren 2021 bis ",
+    "scenario": "S0",
+    "cache_hit": false,
+    "similarity": 0.0,
+    "latency_s": 4.054,
+    "verdict": "\u2014"
+  },
+  {
+    "ts": "2026-05-21T23:29",
+    "query": "Wieviel Umsatz hatte Teckentrup in den Jahren 2021 bis ",
+    "scenario": "S0",
+    "cache_hit": false,
+    "similarity": 0.0,
+    "latency_s": 45.815,
+    "verdict": "ERROR"
+  },
+  {
+    "ts": "2026-05-21T23:38",
+    "query": "Wieviel Umsatz hatte Teckentrup in den Jahren 2021 bis ",
+    "scenario": "S0",
+    "cache_hit": true,
+    "similarity": 0.983,
+    "latency_s": 0.047,
+    "verdict": "\u2014"
+  },
+  {
+    "ts": "2026-05-21T23:39",
+    "query": "Wieviel Umsatz hatte Teckentrup in den Jahren 2021 bis ",
+    "scenario": "S0",
+    "cache_hit": false,
+    "similarity": 0.0,
+    "latency_s": 44.323,
+    "verdict": "FAIL"
+  },
+  {
+    "ts": "2026-05-21T23:39",
+    "query": "Wieviel Umsatz hatte Teckentrup in den Jahren 2021 bis ",
+    "scenario": "S0",
+    "cache_hit": true,
+    "similarity": 0.983,
+    "latency_s": 0.045,
+    "verdict": "\u2014"
+  },
+  {
+    "ts": "2026-05-21T23:39",
+    "query": "Wieviel Umsatz hatte Teckentrup in den Jahren 2021 bis ",
+    "scenario": "S0",
+    "cache_hit": true,
+    "similarity": 0.983,
+    "latency_s": 0.028,
+    "verdict": "\u2014"
+  },
+  {
+    "ts": "2026-05-21T23:41",
+    "query": "Wieviel Umsatz hatte Teckentrup in den Jahren 2021 bis ",
+    "scenario": "S0",
+    "cache_hit": false,
+    "similarity": 0.0,
+    "latency_s": 68.454,
+    "verdict": "FAIL"
+  },
+  {
+    "ts": "2026-05-21T23:50",
+    "query": "show the montly revenue trends for 2022 and highlights ",
+    "scenario": "S0",
+    "cache_hit": false,
+    "similarity": 0.0,
+    "latency_s": 38.963,
+    "verdict": "FAIL"
+  },
+  {
+    "ts": "2026-05-22T00:01",
+    "query": "show the montly revenue trends for 2022 and highlights ",
+    "scenario": "S4",
+    "cache_hit": false,
+    "similarity": 0.477,
+    "latency_s": 28.508,
+    "verdict": "FAIL"
+  },
+  {
+    "ts": "2026-05-22T00:01",
+    "query": "show the montly revenue trends for 2022 and highlights ",
+    "scenario": "S4",
+    "cache_hit": true,
+    "similarity": 1.0,
+    "latency_s": 0.081,
+    "verdict": "FAIL"
+  },
+  {
+    "ts": "2026-05-22T00:15",
+    "query": "show the montly revenue trend for 2022 and highlights i",
+    "scenario": "S0",
+    "cache_hit": false,
+    "similarity": 0.0,
+    "latency_s": 33.099,
+    "verdict": "FAIL"
+  },
+  {
+    "ts": "2026-05-22T00:16",
+    "query": "show the montly revenue trend for 2022 and highlights i",
+    "scenario": "S0",
+    "cache_hit": true,
+    "similarity": 1.0,
+    "latency_s": 0.029,
+    "verdict": "FAIL"
+  },
+  {
+    "ts": "2026-05-22T00:16",
+    "query": "show the montly revenue trend for 2022 and highlights i",
+    "scenario": "S0",
+    "cache_hit": false,
+    "similarity": 0.0,
+    "latency_s": 32.355,
+    "verdict": "FAIL"
+  },
+  {
+    "ts": "2026-05-22T00:18",
+    "query": "show the montly revenue trend for 2022 and highlights i",
+    "scenario": "S0",
+    "cache_hit": false,
+    "similarity": 0.0,
+    "latency_s": 33.789,
+    "verdict": "FAIL"
+  },
+  {
+    "ts": "2026-05-22T00:20",
+    "query": "show a montly revenue trend for 2022 and highlight the ",
+    "scenario": "S0",
+    "cache_hit": false,
+    "similarity": 0.0,
+    "latency_s": 33.496,
+    "verdict": "FAIL"
+  },
+  {
+    "ts": "2026-05-22T00:23",
+    "query": "comapre total revenue across all five years with a bar ",
+    "scenario": "S0",
+    "cache_hit": false,
+    "similarity": 0.605,
+    "latency_s": 45.132,
+    "verdict": "\u2014"
+  },
+  {
+    "ts": "2026-05-22T00:23",
+    "query": "comapre total revenue across all five years with a bar ",
+    "scenario": "S5",
+    "cache_hit": false,
+    "similarity": 0.0,
+    "latency_s": 24.546,
+    "verdict": "\u2014"
+  },
+  {
+    "ts": "2026-05-22T00:25",
+    "query": "comapre total revenue across all five years with a bar ",
+    "scenario": "S0",
+    "cache_hit": true,
+    "similarity": 1.0,
+    "latency_s": 0.057,
+    "verdict": "\u2014"
+  },
+  {
+    "ts": "2026-05-22T00:25",
+    "query": "comapre total revenue across all five years with a bar ",
+    "scenario": "S5",
+    "cache_hit": true,
+    "similarity": 1.0,
+    "latency_s": 0.022,
+    "verdict": "\u2014"
+  },
+  {
+    "ts": "2026-05-22T00:25",
+    "query": "comapre total revenue across all five years with a bar ",
+    "scenario": "S9",
+    "cache_hit": false,
+    "similarity": 0.0,
+    "latency_s": 3.603,
+    "verdict": "\u2014"
+  },
+  {
+    "ts": "2026-05-22T00:26",
+    "query": "comapre total revenue across all five years with a bar ",
+    "scenario": "S0",
+    "cache_hit": false,
+    "similarity": 0.0,
+    "latency_s": 46.703,
+    "verdict": "PASS"
+  },
+  {
+    "ts": "2026-05-22T00:26",
+    "query": "comapre total revenue across all five years with a bar ",
+    "scenario": "S5",
+    "cache_hit": false,
+    "similarity": 0.0,
+    "latency_s": 34.055,
+    "verdict": "FAIL"
+  },
+  {
+    "ts": "2026-05-22T00:27",
+    "query": "comapre total revenue across all five years with a bar ",
+    "scenario": "S9",
+    "cache_hit": false,
+    "similarity": 0.0,
+    "latency_s": 8.798,
+    "verdict": "FAIL"
+  },
+  {
+    "ts": "2026-05-22T20:55",
+    "query": "visualize the revenue distribution across all the four ",
+    "scenario": "S0",
+    "cache_hit": false,
+    "similarity": 0.0,
+    "latency_s": 31.202,
+    "verdict": "FAIL"
+  },
+  {
+    "ts": "2026-05-22T20:56",
+    "query": "visualize the revenue distribution across all the four ",
+    "scenario": "SA1",
+    "cache_hit": false,
+    "similarity": 0.0,
+    "latency_s": 46.795,
+    "verdict": "FAIL"
+  },
+  {
+    "ts": "2026-05-22T20:58",
+    "query": "visualize the revenue distribution across all the four ",
+    "scenario": "SA1",
+    "cache_hit": false,
+    "similarity": 0.0,
+    "latency_s": 54.893,
+    "verdict": "FAIL"
+  },
+  {
+    "ts": "2026-05-22T21:00",
+    "query": "visualize the revenue distribution across all the four ",
+    "scenario": "SA1",
+    "cache_hit": false,
+    "similarity": 0.0,
+    "latency_s": 35.687,
+    "verdict": "FAIL"
+  },
+  {
+    "ts": "2026-05-22T21:02",
+    "query": "visualize the revenue distribution across all the four ",
+    "scenario": "SA1",
+    "cache_hit": false,
+    "similarity": 0.0,
+    "latency_s": 42.444,
+    "verdict": "FAIL"
+  },
+  {
+    "ts": "2026-05-22T21:03",
+    "query": "visualize the revenue distribution across all the four ",
+    "scenario": "SA1",
+    "cache_hit": true,
+    "similarity": 1.0,
+    "latency_s": 0.021,
+    "verdict": "\u2014"
+  },
+  {
+    "ts": "2026-05-22T21:06",
+    "query": "Visualizza la distribuzione dei ricavi nell'arco di tut",
+    "scenario": "SA1",
+    "cache_hit": false,
+    "similarity": 0.269,
+    "latency_s": 48.066,
+    "verdict": "FAIL"
+  },
+  {
+    "ts": "2026-05-22T21:07",
+    "query": "Visualiza la distribuci\u00f3n de los ingresos a lo largo de",
+    "scenario": "S0",
+    "cache_hit": false,
+    "similarity": 0.272,
+    "latency_s": 39.923,
+    "verdict": "FAIL"
+  },
+  {
+    "ts": "2026-05-22T21:08",
+    "query": "Visualiza la distribuci\u00f3n de los ingresos a lo largo de",
+    "scenario": "SA1",
+    "cache_hit": false,
+    "similarity": 0.567,
+    "latency_s": 42.614,
+    "verdict": "FAIL"
+  },
+  {
+    "ts": "2026-05-22T21:58",
+    "query": "Visualiza la distribuci\u00f3n de los ingresos a lo largo de",
+    "scenario": "S0",
+    "cache_hit": true,
+    "similarity": 1.0,
+    "latency_s": 0.186,
+    "verdict": "FAIL"
+  },
+  {
+    "ts": "2026-05-22T21:59",
+    "query": "Visualiza la distribuci\u00f3n de los ingresos a lo largo de",
+    "scenario": "S0",
+    "cache_hit": false,
+    "similarity": 0.0,
+    "latency_s": 39.373,
+    "verdict": "\u2014"
+  },
+  {
+    "ts": "2026-05-23T18:38",
+    "query": "Wieviel Umsatz hatte Teckentrup in den Jahren 2021 bis ",
+    "scenario": "S0",
+    "cache_hit": false,
+    "similarity": 0.0,
+    "latency_s": 48.586,
+    "verdict": "FAIL"
+  },
+  {
+    "ts": "2026-05-23T18:39",
+    "query": "Wieviel Umsatz hatte Teckentrup in den Jahren 2021 bis ",
+    "scenario": "S0",
+    "cache_hit": false,
+    "similarity": 0.0,
+    "latency_s": 47.307,
+    "verdict": "FAIL"
+  },
+  {
+    "ts": "2026-05-23T18:40",
+    "query": "Show the Umsatz SD/CO of Teckentrup in the JVA segment ",
+    "scenario": "S0",
+    "cache_hit": false,
+    "similarity": 0.0,
+    "latency_s": 32.107,
+    "verdict": "FAIL"
+  },
+  {
+    "ts": "2026-05-23T18:42",
+    "query": "Show the Umsatz SD/CO of Teckentrup in the JVA segment ",
+    "scenario": "S0",
+    "cache_hit": false,
+    "similarity": 0.0,
+    "latency_s": 30.34,
+    "verdict": "FAIL"
+  },
+  {
+    "ts": "2026-05-23T18:42",
+    "query": "Show the Umsatz SD/CO of Teckentrup in the JVA segment ",
+    "scenario": "S1",
+    "cache_hit": false,
+    "similarity": 0.0,
+    "latency_s": 33.607,
+    "verdict": "FAIL"
+  },
+  {
+    "ts": "2026-05-23T18:43",
+    "query": "Show the Umsatz SD/CO of Teckentrup in the JVA segment ",
+    "scenario": "S5",
+    "cache_hit": false,
+    "similarity": 0.0,
+    "latency_s": 30.571,
+    "verdict": "FAIL"
+  },
+  {
+    "ts": "2026-05-23T18:43",
+    "query": "Show the Umsatz SD/CO of Teckentrup in the JVA segment ",
+    "scenario": "S5b",
+    "cache_hit": false,
+    "similarity": 0.0,
+    "latency_s": 46.453,
+    "verdict": "FAIL"
+  },
+  {
+    "ts": "2026-05-23T18:44",
+    "query": "Show the Umsatz SD/CO of Teckentrup in the JVA segment ",
+    "scenario": "S8",
+    "cache_hit": false,
+    "similarity": 0.0,
+    "latency_s": 32.274,
+    "verdict": "FAIL"
+  },
+  {
+    "ts": "2026-05-23T18:44",
+    "query": "Show the Umsatz SD/CO of Teckentrup in the JVA segment ",
+    "scenario": "S9",
+    "cache_hit": false,
+    "similarity": 0.0,
+    "latency_s": 10.52,
+    "verdict": "FAIL"
+  },
+  {
+    "ts": "2026-05-23T18:45",
+    "query": "Show the Umsatz SD/CO of Teckentrup in the JVA segment ",
+    "scenario": "SA1",
+    "cache_hit": false,
+    "similarity": 0.0,
+    "latency_s": 30.777,
+    "verdict": "FAIL"
+  },
+  {
+    "ts": "2026-05-23T18:58",
+    "query": "Wieviel Umsatz hatte Teckentrup in den Jahren 2021 bis ",
+    "scenario": "S0",
+    "cache_hit": false,
+    "similarity": 0.0,
+    "latency_s": 26.888,
+    "verdict": "\u2014"
+  },
+  {
+    "ts": "2026-05-23T18:58",
+    "query": "Wieviel Umsatz hatte Teckentrup in den Jahren 2021 bis ",
+    "scenario": "S1",
+    "cache_hit": false,
+    "similarity": 0.0,
+    "latency_s": 34.166,
+    "verdict": "\u2014"
+  },
+  {
+    "ts": "2026-05-23T19:05",
+    "query": "Wieviel Umsatz hatte Teckentrup in den Jahren 2021 bis ",
+    "scenario": "S0",
+    "cache_hit": false,
+    "similarity": 0.0,
+    "latency_s": 35.855,
+    "verdict": "\u2014"
+  },
+  {
+    "ts": "2026-05-23T19:24",
+    "query": "Which year had the highest total revenue and by how muc",
+    "scenario": "S0",
+    "cache_hit": false,
+    "similarity": 0.0,
+    "latency_s": 38.388,
+    "verdict": "FAIL"
+  },
+  {
+    "ts": "2026-05-23T19:24",
+    "query": "Which year had the highest total revenue and by how muc",
+    "scenario": "CB-o4-mini",
+    "cache_hit": false,
+    "similarity": 0.0,
+    "latency_s": 23.023,
+    "verdict": "FAIL"
+  },
+  {
+    "ts": "2026-05-23T19:25",
+    "query": "Which year had the highest total revenue and by how muc",
+    "scenario": "S0",
+    "cache_hit": false,
+    "similarity": 0.0,
+    "latency_s": 40.616,
+    "verdict": "PASS"
+  },
+  {
+    "ts": "2026-05-23T19:27",
+    "query": "Wieviel Umsatz hatte Teckentrup in den Jahren 2021 bis ",
+    "scenario": "S0",
+    "cache_hit": false,
+    "similarity": 0.0,
+    "latency_s": 42.062,
+    "verdict": "FAIL"
+  },
+  {
+    "ts": "2026-05-23T19:32",
+    "query": "Wieviel Umsatz hatte Teckentrup in den Jahren 2021 bis ",
+    "scenario": "S0",
+    "cache_hit": false,
+    "similarity": 0.0,
+    "latency_s": 38.932,
+    "verdict": "PASS"
+  },
+  {
+    "ts": "2026-05-25T18:50",
+    "query": "Show year-over-year revenue growth from 2021 to 2024.",
+    "scenario": "S0",
+    "cache_hit": true,
+    "similarity": 1.0,
+    "latency_s": 2.065,
+    "verdict": "ERROR"
+  },
+  {
+    "ts": "2026-05-25T18:51",
+    "query": "Show year-over-year revenue growth from 2021 to 2024.",
+    "scenario": "S0",
+    "cache_hit": false,
+    "similarity": 0.0,
+    "latency_s": 35.543,
+    "verdict": "\u2014"
+  },
+  {
+    "ts": "2026-05-25T18:53",
+    "query": "Show year-over-year revenue growth from 2021 to 2024.",
+    "scenario": "S0",
+    "cache_hit": false,
+    "similarity": 0.0,
+    "latency_s": 39.173,
+    "verdict": "\u2014"
+  },
+  {
+    "ts": "2026-05-25T18:54",
+    "query": "Which year had the highest total revenue and by how muc",
+    "scenario": "S0",
+    "cache_hit": false,
+    "similarity": 0.0,
+    "latency_s": 38.823,
+    "verdict": "\u2014"
+  },
+  {
+    "ts": "2026-05-25T18:56",
+    "query": "what is the cummulative latency of all the 4 years of t",
+    "scenario": "S0",
+    "cache_hit": false,
+    "similarity": 0.0,
+    "latency_s": 39.419,
+    "verdict": "\u2014"
+  },
+  {
+    "ts": "2026-05-25T19:06",
+    "query": "iu want a combined data analysis of the data for all th",
+    "scenario": "S0",
+    "cache_hit": false,
+    "similarity": 0.0,
+    "latency_s": 42.644,
+    "verdict": "PASS"
+  },
+  {
+    "ts": "2026-05-25T19:08",
+    "query": "iu want a combined data analysis of the data for all th",
+    "scenario": "S0",
+    "cache_hit": false,
+    "similarity": 0.0,
+    "latency_s": 30.366,
+    "verdict": "FAIL"
+  },
+  {
+    "ts": "2026-05-25T19:13",
+    "query": "Show me the quarterly profit margin trend for Teckentru",
+    "scenario": "S0",
+    "cache_hit": false,
+    "similarity": 0.0,
+    "latency_s": 53.194,
+    "verdict": "ERROR"
+  },
+  {
+    "ts": "2026-05-25T19:17",
+    "query": "Which month had zero revenue and why might that be? Vis",
+    "scenario": "S0",
+    "cache_hit": false,
+    "similarity": 0.0,
+    "latency_s": 44.261,
+    "verdict": "ERROR"
+  },
+  {
+    "ts": "2026-05-25T19:18",
+    "query": "Which month had zero revenue and why might that be? Vis",
+    "scenario": "S0",
+    "cache_hit": false,
+    "similarity": 0.0,
+    "latency_s": 34.899,
+    "verdict": "\u2014"
+  },
+  {
+    "ts": "2026-05-25T19:21",
+    "query": "Which month had zero revenue and why might that be? Vis",
+    "scenario": "S0",
+    "cache_hit": false,
+    "similarity": 0.0,
+    "latency_s": 25.2,
+    "verdict": "\u2014"
+  },
+  {
+    "ts": "2026-05-25T19:22",
+    "query": "Which month had zero revenue and why might that be? Vis",
+    "scenario": "S0",
+    "cache_hit": false,
+    "similarity": 0.0,
+    "latency_s": 38.65,
+    "verdict": "FAIL"
+  },
+  {
+    "ts": "2026-05-25T19:23",
+    "query": "Which month had zero revenue and why might that be? Vis",
+    "scenario": "S0",
+    "cache_hit": false,
+    "similarity": 0.478,
+    "latency_s": 37.157,
+    "verdict": "FAIL"
+  },
+  {
+    "ts": "2026-05-25T19:24",
+    "query": "Which month had zero revenue and why might that be? Vis",
+    "scenario": "S0",
+    "cache_hit": true,
+    "similarity": 1.0,
+    "latency_s": 1.244,
+    "verdict": "FAIL"
+  },
+  {
+    "ts": "2026-05-25T19:24",
+    "query": "Which month had zero revenue and why might that be? Vis",
+    "scenario": "S0",
+    "cache_hit": true,
+    "similarity": 1.0,
+    "latency_s": 0.372,
+    "verdict": "FAIL"
+  },
+  {
+    "ts": "2026-05-25T19:24",
+    "query": "Which month had zero revenue and why might that be? Vis",
+    "scenario": "S0",
+    "cache_hit": true,
+    "similarity": 1.0,
+    "latency_s": 0.296,
+    "verdict": "FAIL"
+  },
+  {
+    "ts": "2026-05-25T19:24",
+    "query": "Which month had zero revenue and why might that be? Vis",
+    "scenario": "S0",
+    "cache_hit": true,
+    "similarity": 1.0,
+    "latency_s": 0.184,
+    "verdict": "FAIL"
+  },
+  {
+    "ts": "2026-05-25T19:24",
+    "query": "Which month had zero revenue and why might that be? Vis",
+    "scenario": "S0",
+    "cache_hit": true,
+    "similarity": 1.0,
+    "latency_s": 0.193,
+    "verdict": "FAIL"
+  },
+  {
+    "ts": "2026-05-25T19:24",
+    "query": "Which month had zero revenue and why might that be? Vis",
+    "scenario": "S0",
+    "cache_hit": true,
+    "similarity": 1.0,
+    "latency_s": 0.182,
+    "verdict": "FAIL"
+  },
+  {
+    "ts": "2026-05-25T19:26",
+    "query": "Show the Deckungsbeitrag and Nettomarge trend from 2021",
+    "scenario": "S0",
+    "cache_hit": false,
+    "similarity": 0.557,
+    "latency_s": 71.064,
+    "verdict": "FAIL"
+  },
+  {
+    "ts": "2026-05-25T19:38",
+    "query": "Show the Deckungsbeitrag and Nettomarge trend from 2021",
+    "scenario": "CB-qwen",
+    "cache_hit": false,
+    "similarity": 0.0,
+    "latency_s": 19.021,
+    "verdict": "FAIL"
+  },
+  {
+    "ts": "2026-05-25T19:40",
+    "query": "Show total revenue for each year from 2021 to 2024 as a",
+    "scenario": "CB-qwen",
+    "cache_hit": false,
+    "similarity": 0.506,
+    "latency_s": 20.801,
+    "verdict": "FAIL"
+  },
+  {
+    "ts": "2026-05-25T19:42",
+    "query": "Show total revenue for each year from 2021 to 2024 as a",
+    "scenario": "CB-qwen",
+    "cache_hit": true,
+    "similarity": 1.0,
+    "latency_s": 0.205,
+    "verdict": "FAIL"
+  },
+  {
+    "ts": "2026-05-25T19:43",
+    "query": "Show total revenue for each year from 2021 to 2024 as a",
+    "scenario": "CB-qwen",
+    "cache_hit": false,
+    "similarity": 0.0,
+    "latency_s": 16.851,
+    "verdict": "FAIL"
+  },
+  {
+    "ts": "2026-05-25T19:43",
+    "query": "Show total revenue for each year from 2021 to 2024 as a",
+    "scenario": "CB-qwen",
+    "cache_hit": false,
+    "similarity": 0.0,
+    "latency_s": 22.833,
+    "verdict": "FAIL"
+  },
+  {
+    "ts": "2026-05-25T19:44",
+    "query": "Show year-over-year revenue growth from 2021 to 2024.",
+    "scenario": "CB-qwen",
+    "cache_hit": false,
+    "similarity": 0.0,
+    "latency_s": 21.908,
+    "verdict": "FAIL"
+  },
+  {
+    "ts": "2026-05-25T19:50",
+    "query": "Show year-over-year revenue growth from 2021 to 2024.",
+    "scenario": "CB-qwen",
+    "cache_hit": false,
+    "similarity": 0.0,
+    "latency_s": 46.875,
+    "verdict": "FAIL"
+  },
+  {
+    "ts": "2026-05-25T19:55",
+    "query": "Which year had the highest total revenue and by how muc",
+    "scenario": "CB-qwen",
+    "cache_hit": false,
+    "similarity": 0.0,
+    "latency_s": 46.893,
+    "verdict": "\u2014"
+  },
+  {
+    "ts": "2026-05-25T19:58",
+    "query": "Which year had the highest total revenue and by how muc",
+    "scenario": "CB-qwen",
+    "cache_hit": false,
+    "similarity": 0.0,
+    "latency_s": 25.712,
+    "verdict": "FAIL"
+  },
+  {
+    "ts": "2026-05-27T09:14",
+    "query": "The data shows monthly Umsatz SD/CO from 2021 to 2024. ",
+    "scenario": "S0",
+    "cache_hit": false,
+    "similarity": 0.0,
+    "latency_s": 81.278,
+    "verdict": "FAIL"
+  },
+  {
+    "ts": "2026-05-27T09:21",
+    "query": "The data contains monthly Umsatz SD/CO from 2021 to 202",
+    "scenario": "S0",
+    "cache_hit": false,
+    "similarity": 0.0,
+    "latency_s": 46.637,
+    "verdict": "FAIL"
+  },
+  {
+    "ts": "2026-05-27T09:23",
+    "query": "Visualize the revenue distribution across months for 20",
+    "scenario": "S0",
+    "cache_hit": false,
+    "similarity": 0.0,
+    "latency_s": 28.222,
+    "verdict": "\u2014"
+  }
+]

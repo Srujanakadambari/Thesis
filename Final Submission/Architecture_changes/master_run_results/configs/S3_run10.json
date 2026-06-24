@@ -1,0 +1,85 @@
+{
+  "titlename": "J\u00e4hrlicher Umsatz Teckentrup im Segment JVA (2021\u20132024)",
+  "charttype": "column",
+  "xlabel": "Jahr",
+  "ylabel": "Umsatz (Euro)",
+  "y_ticks": [
+    0,
+    200000,
+    400000,
+    600000,
+    800000,
+    1000000,
+    1200000
+  ],
+  "x_ticks": [
+    2021,
+    2022,
+    2023,
+    2024
+  ],
+  "x_tick_label": [
+    "2021",
+    "2022",
+    "2023",
+    "2024"
+  ],
+  "y_tick_label": [
+    "0",
+    "200 T",
+    "400 T",
+    "600 T",
+    "800 T",
+    "1,0 M",
+    "1,2 M"
+  ],
+  "x_lim": [
+    2020.5,
+    2024.5
+  ],
+  "y_lim": [
+    0,
+    1200000
+  ],
+  "annotations": [
+    {
+      "text": "H\u00f6chster Umsatz 2022",
+      "target_type": "point",
+      "data_id": 1.0,
+      "data_value": 1124838.11,
+      "x_value": 2022.0,
+      "y_value": 1124838.11,
+      "x_range": null,
+      "y_range": null,
+      "style": null
+    },
+    {
+      "text": "Niedrigster Umsatz 2021",
+      "target_type": "point",
+      "data_id": 0.0,
+      "data_value": 204872.32,
+      "x_value": 2021.0,
+      "y_value": 204872.32,
+      "x_range": null,
+      "y_range": null,
+      "style": null
+    }
+  ],
+  "data": [
+    {
+      "x_data": [
+        2021.0,
+        2022.0,
+        2023.0,
+        2024.0
+      ],
+      "y_data": [
+        204872.32,
+        1124838.11,
+        656640.59,
+        324925.38
+      ],
+      "label": "Umsatz JVA"
+    }
+  ]
+}

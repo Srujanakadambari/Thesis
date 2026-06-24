@@ -1,0 +1,155 @@
+{
+  "titlename": "Teckentrup \u2013 Umsatz Segment JVA 2021-2024",
+  "charttype": "bar",
+  "xlabel": "Jahr",
+  "ylabel": "Umsatz (\u20ac)",
+  "y_ticks": [
+    0,
+    50000,
+    100000,
+    150000,
+    200000,
+    250000,
+    300000,
+    350000,
+    400000,
+    450000,
+    500000,
+    600000,
+    700000,
+    800000,
+    900000,
+    1000000,
+    1100000,
+    1200000,
+    1300000,
+    1400000
+  ],
+  "x_ticks": [
+    0,
+    1,
+    2,
+    3
+  ],
+  "x_tick_label": [
+    "2021",
+    "2022",
+    "2023",
+    "2024"
+  ],
+  "y_tick_label": [],
+  "x_lim": [
+    -0.5,
+    3.5
+  ],
+  "y_lim": [
+    0,
+    1400000
+  ],
+  "annotations": [
+    {
+      "text": "Gr\u00f6\u00dfter Monat 2022 (Juni)",
+      "target_type": "point",
+      "data_id": 6.0,
+      "data_value": 242067.0,
+      "x_value": null,
+      "y_value": null,
+      "x_range": null,
+      "y_range": null,
+      "style": null
+    },
+    {
+      "text": "Minimalwert 2023 (Dez)",
+      "target_type": "point",
+      "data_id": 22.0,
+      "data_value": 308.0,
+      "x_value": null,
+      "y_value": null,
+      "x_range": null,
+      "y_range": null,
+      "style": null
+    },
+    {
+      "text": "Nullwert 2024 (Sep)",
+      "target_type": "point",
+      "data_id": 34.0,
+      "data_value": 0.0,
+      "x_value": null,
+      "y_value": null,
+      "x_range": null,
+      "y_range": null,
+      "style": null
+    },
+    {
+      "text": "Wachstum 2022: +449% gg\u00fc. 2021",
+      "target_type": "chart",
+      "data_id": null,
+      "data_value": null,
+      "x_value": null,
+      "y_value": null,
+      "x_range": null,
+      "y_range": null,
+      "style": null
+    },
+    {
+      "text": "R\u00fcckgang 2023: -42% gg\u00fc. 2022",
+      "target_type": "chart",
+      "data_id": null,
+      "data_value": null,
+      "x_value": null,
+      "y_value": null,
+      "x_range": null,
+      "y_range": null,
+      "style": null
+    },
+    {
+      "text": "Saisonalit\u00e4t: Peaks im 2. und 4. Quartal",
+      "target_type": "chart",
+      "data_id": null,
+      "data_value": null,
+      "x_value": null,
+      "y_value": null,
+      "x_range": null,
+      "y_range": null,
+      "style": null
+    }
+  ],
+  "data": [
+    {
+      "x_data": [
+        0.0
+      ],
+      "y_data": [
+        204872.32
+      ],
+      "label": "2021"
+    },
+    {
+      "x_data": [
+        1.0
+      ],
+      "y_data": [
+        1124838.11
+      ],
+      "label": "2022"
+    },
+    {
+      "x_data": [
+        2.0
+      ],
+      "y_data": [
+        656640.59
+      ],
+      "label": "2023"
+    },
+    {
+      "x_data": [
+        3.0
+      ],
+      "y_data": [
+        324925.38
+      ],
+      "label": "2024"
+    }
+  ]
+}

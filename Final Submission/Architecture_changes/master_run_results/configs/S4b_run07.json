@@ -1,0 +1,118 @@
+{
+  "titlename": "Total Sales by Year for Teckentrup (JVA Segment)",
+  "charttype": "line",
+  "xlabel": "Year",
+  "ylabel": "Total Sales",
+  "y_ticks": [
+    0,
+    200000,
+    400000,
+    600000,
+    800000,
+    1000000,
+    1200000
+  ],
+  "x_ticks": [
+    0,
+    1,
+    2,
+    3
+  ],
+  "x_tick_label": [
+    "2021",
+    "2022",
+    "2023",
+    "2024"
+  ],
+  "y_tick_label": [
+    "0",
+    "200k",
+    "400k",
+    "600k",
+    "800k",
+    "1000k",
+    "1200k"
+  ],
+  "x_lim": [
+    -0.5,
+    3.5
+  ],
+  "y_lim": [
+    0,
+    1200000
+  ],
+  "annotations": [
+    {
+      "text": "Highest sales in Nov & Dec 2021",
+      "target_type": "point",
+      "data_id": 9.0,
+      "data_value": 43170.69,
+      "x_value": null,
+      "y_value": null,
+      "x_range": null,
+      "y_range": null,
+      "style": null
+    },
+    {
+      "text": "Peak in Jun 2022",
+      "target_type": "point",
+      "data_id": 20.0,
+      "data_value": 242067.31,
+      "x_value": null,
+      "y_value": null,
+      "x_range": null,
+      "y_range": null,
+      "style": null
+    },
+    {
+      "text": "Notable drop in Dec 2023",
+      "target_type": "point",
+      "data_id": 31.0,
+      "data_value": 308.46,
+      "x_value": null,
+      "y_value": null,
+      "x_range": null,
+      "y_range": null,
+      "style": null
+    },
+    {
+      "text": "Almost no sales in Sep 2024",
+      "target_type": "point",
+      "data_id": 39.0,
+      "data_value": 0.0,
+      "x_value": null,
+      "y_value": null,
+      "x_range": null,
+      "y_range": null,
+      "style": null
+    },
+    {
+      "text": "Overall upward trend peaking in 2022",
+      "target_type": "chart",
+      "data_id": null,
+      "data_value": null,
+      "x_value": null,
+      "y_value": null,
+      "x_range": null,
+      "y_range": null,
+      "style": null
+    }
+  ],
+  "data": [
+    {
+      "x_data": [
+        2021.0,
+        2022.0,
+        2023.0,
+        2024.0
+      ],
+      "y_data": [
+        233472.32,
+        1167121.76,
+        546290.19,
+        391924.38
+      ],
+      "label": "Total Sales"
+    }
+  ]
+}

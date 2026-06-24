@@ -1,0 +1,6 @@
+{
+  "verdict": "FAIL",
+  "score": 0.4,
+  "reasoning": "The chart displays monthly revenue trends for each year from 2021 to 2024, which provides context but does not directly answer the specific question 'Wieviel Umsatz...' (How much revenue...). The question asks for the total revenue amount per year. A business user looking at this line chart would have to mentally sum up 12 data points for four different lines to get the annual totals, which is error-prone and inefficient. Furthermore, the annotation highlights a single month's peak (June 2022) rather than the cumulative yearly performance requested. While the underlying data is correct, the visualization format is mismatched with the primary query intent.",
+  "suggested_improvement": "Change the chart type to a bar chart where the x-axis represents the years (2021-2024) and the y-axis represents the aggregated total revenue for that year. This allows the user to immediately see the total earnings per year as requested."
+}
